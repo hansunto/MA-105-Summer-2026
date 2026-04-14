@@ -12,15 +12,15 @@
     <title>Course Information</title>
 
     <p>
-      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
-      It is a [n] credit course.
+      This is the syllabus for <term>Survey of Math (MA-105, section BL)</term> for summer 2026.
+      It is a 3 credit course.
       <!-- use a description list (dl) for short items -->
       <dl>
         <li>
           <title>Instructor</title>
 
           <p>
-            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
+            Prof. Hansun To, Office Location, <url href="mailto:hto1@worcester.edu">hto1@worcester.edu</url>.
           </p>
         </li>
 
