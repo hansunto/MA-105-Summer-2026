@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-compound-interest">
+
+  <title>Compound Interest</title>
+
+<section>
+  <title>Saving Money: Compound Interest</title>  
+<p>
+In 1626, Peter Minuit convinced the wrappinger Indians to sell him Manhattan Island for $24. If the native American had <alert>put the $24 into a bank account at a 5% interest rate</alert> compound annually, by the year 2021 there would be well over $5.6 billion in the account!
+</p>
+<p>
+So, how did the present value of Manhattan in 1626 attain a future value of over $5.6 billion in 2021, 395 years at 5%simple interest is
+      <md>
+        A=P(1+rt)=24(1+(0.05)(395))=498.00
+      </md>
+      or $498.00 compared to over $5.6 billion.
+    </p>
+      <boxed>
+    <p>
+    <alert>Compound interest</alert> is interest computed on the original principal as well as on any accumulated interest.
+    </p>    
+  </boxed>
+    <p>
+      For example, suppose you deposit $1,000 in a savings account at a rate of 5%. Following table shows how the investment grows.
+    </p>
+
+</section>
+
+</section>

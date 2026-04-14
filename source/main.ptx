@@ -21,6 +21,18 @@
       <!-- Other documents could go here, like a schedule, project description, etc. -->
     </chapter>
 
+    <chapter xml:id="ch-Personal-Finance">
+      <title>Personal Finance</title>
+      <introduction>
+        <p>
+          This chapter contains notes on personal finance topics. It is intended to be a resource for students who want to learn more about financial concepts and how they apply to their lives.
+        </p>
+      </introduction>
+      <xi:include href="./notes/finance.ptx" />
+      <xi:include href="./notes/compoundinterest.ptx" />
+    </chapter>
+
+
     <chapter xml:id="course-notes">
       <title>Course Notes</title>
 
@@ -31,7 +43,7 @@
         </p>
       </introduction>
 
-      <xi:include href="./notes/finance.ptx"/>
+      <!-- <xi:include href="./notes/finance.ptx"/> -->
       <xi:include href="./notes/week01.ptx"/>
       <xi:include href="./notes/week02.ptx"/>
       <!-- etc. -->
