@@ -26,7 +26,7 @@
     The rate, <m>r</m>, is expressed as a decimal when you calculating simple interest.</p>
     </definition>
 
-    <example xml:id="example-1" >
+    <example xml:id="example-S1" >
       <title>Calculating Simple interest for a year</title>
       <p>
         You deposit $2,000 in a savings account, which has a rate 6.0%. Find the interest at the end of the first year.
@@ -40,7 +40,7 @@
       </solution>
     </example>
     
-    <example xml:id="example-2" >
+    <example xml:id="example-S2" >
       <title>Calculating Simple interest for more than a year</title>
       <p>
         A student took out a simple interest loan for $1,300 for two years at a rate of 7.5%to purchase a used car. 
@@ -58,7 +58,7 @@
     </example>
     <p>
       When a loan is repaid, the interest is added to the original principal to find the total amount due. 
-      In <xref ref="example-2"/>, at the end of 2 years the student will have to repay.
+      In <xref ref="example-S2"/>, at the end of 2 years the student will have to repay.
     </p>
     
       <p>
@@ -84,7 +84,7 @@
         </p>
       </statement>
     </definition>
-    <example xml:id="example-3" >
+    <example xml:id="example-S3" >
       <title>Calculating Future Value</title>
       <p>
         What is the future value of a $1,000 loan at 5% for 3 years?
@@ -99,7 +99,7 @@
       
     </example>
 
-    <example xml:id="example-4" >
+    <example xml:id="example-S4" >
       <title>Determining a simple interest rate</title>
       <p>
         You borrow $2,500 from a friend and promise to pay back $2,655 in six months. What simple interest rate will you pay?
@@ -120,7 +120,7 @@
       </solution>
       
     </example>
-    <example xml:id="example-5">
+    <example xml:id="example-S5">
       <title>Determining a present value</title>
       <p>
         How much should you put an investment paying a simple interest rate of 8.0% if you need $3000 in six months?
@@ -139,7 +139,7 @@
       </solution>
     </example>
 
-    <exercise xml:id="exercise-1">
+    <exercise xml:id="exercise-S1">
       <title>Calculating a simple interest rate for a T-bill</title> 
       <statement>
         <p>
@@ -160,7 +160,7 @@
           </md> 
       </answer>   
     </exercise>
-    <exercise xml:id="exercise-2">
+    <exercise xml:id="exercise-S2">
       <title>Calculating a present value for a CD</title>
       <statement>
         <p>
@@ -181,7 +181,7 @@
       </answer> 
       <!-- </knowl> -->
     </exercise>
-<exercise xml:id="exercise-3">
+<exercise xml:id="exercise-S3">
       <title>Calculating a future value for a savings account</title>
       <statement>
         <p>
@@ -198,7 +198,7 @@
       </answer> 
       <!-- </knowl>  -->
 </exercise>
-<exercise xml:id="exercise-4">
+<exercise xml:id="exercise-S4">
       <title>Determining whether a statement makes sense or not, explain your reasoning.</title>  
       <statement>
         <ol>
