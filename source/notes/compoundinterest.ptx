@@ -2,9 +2,6 @@
 
 <section xml:id="notes-compound-interest">
 
-  <title>Compound Interest</title>
-
-<section>
   <title>Saving Money: Compound Interest</title>  
 <p>
 In 1626, Peter Minuit convinced the wrappinger Indians to sell him Manhattan Island for $24. If the native American had <alert>put the $24 into a bank account at a 5% interest rate</alert> compound annually, by the year 2021 there would be well over $5.6 billion in the account!
@@ -760,7 +757,5 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
     </solution>
 </exercise>
 </exercises>
-
-</section>
 
 </section>
