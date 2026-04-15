@@ -167,7 +167,7 @@
           A bank offers a CD that pays a simple interest rate of 4.5%. How much must you put in this CD now in order to have $8,000 for a kitchen remodeling project in two years? Round up to the nearest cent.
         </p>
       </statement>
-      <knowl>
+      <!-- <knowl>-->
       <answer>
         <p>
           We can use the formula for future value to find the present value. 
@@ -179,7 +179,7 @@
             <mrow>P \amp = \frac{8000}{1.09}  = 7339.45</mrow>
           </md> 
       </answer> 
-      </knowl>
+      <!-- </knowl> -->
     </exercise>
 <exercise xml:id="exercise-3">
       <title>Calculating a future value for a savings account</title>
@@ -188,7 +188,7 @@
            You deposit $1,000 in a savings account at a bank that has a rate of 1.95%. Find a future value at the end of 5 years.
         </p>
       </statement>
-      <knowl>
+      <!--<knowl>-->
       <answer>
         <p>
           We can use the formula for future value to find the amount due at the end of 5 years. 
@@ -196,7 +196,7 @@
           <m>A = 1000(1 + 0.0195 \times 5) = 1000(1 + 0.0975) = 1000 \times 1.0975 = 1097.50</m> 
         </p>
       </answer> 
-      </knowl>  
+      <!-- </knowl>  -->
 </exercise>
 <exercise xml:id="exercise-4">
       <title>Determining whether a statement makes sense or not, explain your reasoning.</title>  
@@ -219,7 +219,9 @@
         </p>
         <answer>
           <p>
-            This statement does not make sense because the present value should be rounded to the nearest cent, which is $3,846.15. However, the original present value was already rounded to six decimal places, so rounding it to two decimal places does not change the value. Therefore, the correct present value should be $3,846.15 without rounding.
+            This makes sense. In fact, rounding down is the safer move here. 
+            Rounding Down ($3,846.15): By starting with slightly less than the exact "perfect" number, you technically might end up a fraction of a cent short of your $5,000 goal after four years. 
+            However, in practice, this is unlikely to be a significant issue, and it provides a small buffer to ensure you meet your target.
           </p>
         </answer>
       </li>

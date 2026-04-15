@@ -16,14 +16,25 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
       </md>
       or $498.00 compared to over $5.6 billion.
     </p>
-      <boxed>
+      <aside xml:id="compound-interest">
+        <title>Compound Interest vs. Simple Interest</title>
+        <p>
+          The difference between simple interest and compound interest is that simple interest is calculated only on the original principal, while compound interest is calculated on the original principal and any accumulated interest. 
+        </p>
     <p>
     <alert>Compound interest</alert> is interest computed on the original principal as well as on any accumulated interest.
     </p>    
-  </boxed>
+  </aside>
     <p>
       For example, suppose you deposit $1,000 in a savings account at a rate of 5%. Following table shows how the investment grows.
     </p>
+
+
+
+
+
+
+
 
 </section>
 

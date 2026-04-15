@@ -28,7 +28,7 @@
           This chapter contains notes on personal finance topics. It is intended to be a resource for students who want to learn more about financial concepts and how they apply to their lives.
         </p>
       </introduction>
-      <xi:include href="./notes/finance.ptx" />
+      <xi:include href="./notes/simpleinterest.ptx" />
       <xi:include href="./notes/compoundinterest.ptx" />
     </chapter>
 
