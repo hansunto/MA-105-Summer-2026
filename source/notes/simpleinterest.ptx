@@ -71,6 +71,7 @@
         A=P + \underbrace{I}_{I=Prt}=P + Prt=P(1+rt)
       </md>
     </p>      
+
     <definition xml:id="definition-future-value" latex-style="myshadowbox">
       <title>Future Value</title>
       <statement>
@@ -84,6 +85,7 @@
         </p>
       </statement>
     </definition>
+
     <example xml:id="example-S3" >
       <title>Calculating Future Value</title>
       <p>
@@ -120,6 +122,7 @@
       </solution>
       
     </example>
+
     <example xml:id="example-S5">
       <title>Determining a present value</title>
       <p>
@@ -139,7 +142,9 @@
       </solution>
     </example>
 
-    <exercise xml:id="exercise-S1">
+  <exercises xml:id="practice-simple-interest">
+  <title>Exercises for Practice</title>
+<exercise xml:id="exercise-S1">
       <title>Calculating a simple interest rate for a T-bill</title> 
       <statement>
         <p>
@@ -159,8 +164,9 @@
             <mrow>r \amp = \frac{18.40}{245.40} = 0.0749 = 7.5\%</mrow>
           </md> 
       </answer>   
-    </exercise>
-    <exercise xml:id="exercise-S2">
+</exercise>
+
+<exercise xml:id="exercise-S2">
       <title>Calculating a present value for a CD</title>
       <statement>
         <p>
@@ -180,7 +186,8 @@
           </md> 
       </answer> 
       <!-- </knowl> -->
-    </exercise>
+</exercise>
+
 <exercise xml:id="exercise-S3">
       <title>Calculating a future value for a savings account</title>
       <statement>
@@ -198,6 +205,7 @@
       </answer> 
       <!-- </knowl>  -->
 </exercise>
+
 <exercise xml:id="exercise-S4">
       <title>Determining whether a statement makes sense or not, explain your reasoning.</title>  
       <statement>
@@ -228,6 +236,8 @@
     </ol>
       </statement>
 </exercise>
+</exercises>
+
 </section>
 
 </section>

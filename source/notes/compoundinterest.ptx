@@ -229,7 +229,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
           </p>
         </statement>
       </definition>
-       <example xml:id="example-C4">
+<example xml:id="example-C4">
         <title>Understanding effective annual yield</title>
         <p>  
         You deposit $4000 in an account that pays 8% interest compounded monthly. 
@@ -257,9 +257,9 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
           You will pay a simple interest rate of 8.3%. This means that money invested at 8.3% simple interest earns the same amount in one year as money invested at 8%interest compounded monthly.
         </p>
       </solution>
-      </example>
+</example>
 
-      <example xml:id="example-C5">
+<example xml:id="example-C5">
     <title>Calculating Effective Annual Yield</title>
     <statement>
         <p>
@@ -347,7 +347,9 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
     </solution>
 </example>
 
-    <exercise xml:id="exercise-C1">
+<exercises xml:id="practice-compound-interest">
+  <title>Exercises for Practice</title>
+<exercise xml:id="exercise-C1">
     <title>Comparing Investment Options</title>
     <statement>
         <p>
@@ -398,9 +400,8 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
         </p>
     </solution>
 </exercise>
-
-            
-      <exercise xml:id="exercise-C2">
+       
+<exercise xml:id="exercise-C2">
     <title>Present Value with Quarterly Compounding</title>
     <statement>
         <p>
@@ -437,7 +438,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
     </solution>
 </exercise>
 
-      <exercise xml:id="exercise-C3">
+<exercise xml:id="exercise-C3">
     <title>Calculating Effective Annual Yield</title>
     <statement>
         <p>
@@ -471,6 +472,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
         </p>
     </solution>
 </exercise>
+
 <exercise xml:id="exercise-C4">
     <title>Future Value for a Long-Term Investment</title>
     <statement>
@@ -508,7 +510,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
     </solution>
 </exercise>
 
-      <exercise xml:id="exercise-C5">
+<exercise xml:id="exercise-C5">
     <title>Interest Rate Concepts: True or False</title>
     <statement>
         <p>
@@ -562,7 +564,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
     </solution>
 </exercise>
 
-      <exercise xml:id="exercise-C6">
+<exercise xml:id="exercise-C6">
     <title>Quarterly Compounding vs. Simple Interest</title>
     <statement>
         <p>
@@ -715,6 +717,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
         </p>
     </solution>
 </exercise>
+
 <exercise xml:id="exercise-C9">
     <title>The Historical DeHaven Debt Calculation</title>
     <statement>
@@ -756,6 +759,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
         </p>
     </solution>
 </exercise>
+</exercises>
 
 </section>
 
