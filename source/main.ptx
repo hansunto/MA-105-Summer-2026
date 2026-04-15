@@ -30,6 +30,7 @@
       </introduction>
       <xi:include href="./notes/simpleinterest.ptx" />
       <xi:include href="./notes/compoundinterest.ptx" />
+      <xi:include href="./notes/Annuities.ptx"/>
     </chapter>
 
 

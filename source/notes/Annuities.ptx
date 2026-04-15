@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="notes-Annuities">
+
+  <title>Annuities</title>
+
+<section>
+  <title>Saving Money: Annuities </title>  
+<p>
+     An <term>annuity</term> is a sequence of equal (regular) payments made into an account over time periods. An IRA is an example of an annuity. 
+     The value of an annuity is the sum of all deposits plus all interest paid.
+        </p>
+    <example xml:id="ex-annuity-intro">
+    <title>Annuity Basics</title>
+    <statement>
+        <p>
+            Suppose you deposit <m>\$1,000</m> into a savings plan at the end of 
+            each year for three years. The interest rate is <m>8\%</m> per year 
+            compounded annually.
+            <ol marker="1">
+                <li>
+                    <p>Find the value of the annuity after three years.</p>
+                </li>
+                <li>
+                    <p>Find the interest earned.</p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            We calculate the balance step-by-step:
+            <ul>
+                <li>
+                    <p>Value at the end of year 1: <m>\$1,000</m></p>
+                </li>
+                <li>
+                    <p>
+                        Value at the end of year 2: 
+                        <m>1,000(1+0.08) + 1,000 = \$2,080</m>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Value at the end of year 3: 
+                        <m>2,080(1+0.08) + 1,000 = \$3,246.40</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+        <p>
+            The value of the annuity at the end of three years is <m>\$3,246.40</m>. 
+            Since you made three payments of <m>\$1,000</m>, the total principal 
+            deposited is <m>\$3,000</m>.
+        </p>
+        <p>
+            The interest is: 
+            <me>I = 3,246.40 - 3,000 = \$246.40</me>
+        </p>
+    </solution>
+</example>
+
+<definition xml:id="Value-of-an-Annuity">
+    <title>Value of an Annuity: Interest Compounded <m>n</m> Times per Year</title>
+    <statement>
+    <p>
+        If <m>P</m> is the deposit made at the end of each compounding period 
+        for an annuity that pays an annual interest rate <m>r</m> compounded 
+        <m>n</m> times per year, the future value, <m>FV</m> or <m>A</m>, 
+        of the annuity after <m>t</m> years is:
+        <me>FV = A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}</me>
+    </p>
+    </statement>
+</definition>
+
+<example xml:id="example-a1">
+    <title>Retirement Savings: IRA Annuity</title>
+    <statement>
+        <p>
+            To save for retirement, you decide to deposit <m>\$1,000</m> into an IRA 
+            at the end of each year for the next 30 years. If you can count on an 
+            interest rate of <m>10\%</m> per year compounded annually:
+            <ol marker="1">
+                <li>
+                    <p>
+                        How much will you have from the IRA after 30 years?
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Find the interest.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+    <solution>
+        <p>
+            We use the future value formula for an annuity:
+            <me>A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}</me>
+            where <m>P = 1,000</m>, <m>r = 0.10</m>, <m>n = 1</m>, and <m>t = 30</m>.
+        </p>
+        <p>
+            <ol marker="1">
+                <li>
+                    <p>
+                        Substituting the values into the formula:
+                        <md>
+                            <mrow>A \amp = \frac{1,000\left[(1 + 0.10)^{30} - 1\right]}{0.10}</mrow>
+                            <mrow>A \amp = \frac{1,000\left[(1.1)^{30} - 1\right]}{0.10}</mrow>
+                            <mrow>A \amp \approx \frac{1,000(17.4494 - 1)}{0.10}</mrow>
+                            <mrow>A \amp \approx 164,494.02</mrow>
+                        </md>
+                        After 30 years, the IRA will have <m>\$164,494.02</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        To find the interest, we subtract the total deposits from the future value. 
+                        Total deposits = <m>1,000 \times 30 = \$30,000</m>.
+                        <md>
+                            <mrow>I \amp = 164,494.02 - 30,000</mrow>
+                            <mrow>I \amp = 134,494.02</mrow>
+                        </md>
+                        The total interest earned is <m>\$134,494.02</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </solution>
+</example>
+
+
+</section>
+</section>
