@@ -33,7 +33,7 @@
       <xi:include href="./notes/Annuities.ptx"/>
       <xi:include href="./notes/mortgage.ptx"/>
       <xi:include href="./notes/identifyformula.ptx" />
-      <xi:include href="./notes/fin_ch_ex.ptx" />
+      <xi:include href="./notes/finchex.ptx" />
     </chapter>
 
 
