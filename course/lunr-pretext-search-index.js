@@ -667,6 +667,114 @@ var ptx_lunr_docs = [
   "body": "  How much money should be deposited today in an account that earns 8% compounded quarterly so that it will accumulate to $ 3800 in 12 years?    ; $1,468.32   "
 },
 {
+  "id": "sec-fin-ch-ex",
+  "level": "1",
+  "url": "sec-fin-ch-ex.html",
+  "type": "Section",
+  "number": "",
+  "title": "Chapter Exercise",
+  "body": " Chapter Exercise    Suppose a local sales tax rate is and you purchase a car for .  How much sales tax is paid?  How much is the total cost of the car?                Tax = .  Total = .        Suppose that you drive 15,000 miles per year and gas averages per gallon. What will you save in annual fuel expenses by owning a hybrid car averaging 45 miles per gallon rather than an SUV averaging 28 miles per gallon?       SUV cost: . Hybrid cost: . Savings: . (Note: exact rounding may vary depending on steps).      A bank offers a CD that pays a simple interest rate of . How much must you put in this CD now in order to have for college tuition in five years?       Use .   .      How much money should be deposited today in an account that earns compounded quarterly so that it will accumulate to in ten years?       Use .  .      The cost of washer-dryer is . We can finance this by paying down and per month for 12 months. Determine the finance charge.       Total paid = Down payment + (Monthly payment months) Total = . Finance Charge = .      At the time of her grandson's birth, a grandmother deposits in an account that pays compounded monthly. What will be the value of the account at the child's twenty-first birthday?         .      You deposit in an account that pays interest compounded monthly. Find the future value after one year and the effective annual yield.    FV: ; Yield:    FV = . Yield = or .      Find the value of an annuity of at the end of every 6 months at compounded semiannually for 10 years.    Value: ; Interest:    Use . . Total deposits = . Interest = .      Financial goal of at compounded quarterly for 35 years. Find the periodic deposit.    Deposit:      .      Credit card monthly rate . Unpaid balance . Payment of on Sept 7. Find interest due and total balance using unpaid balance method.    Interest: ; Total:    Remaining balance after payment = . Interest = . Total balance = .      Loan of at for 10 years.  Find monthly payments and total interest.  Compare to a 5-year term.        Payment: ; Interest:  Pay more per month; Save interest.      Use . 10-yr: . Total paid = . Interest = . 5-yr: . Total paid = . Interest = .    "
+},
+{
+  "id": "sec-fin-ch-ex-2",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2",
+  "type": "Checkpoint",
+  "number": "37",
+  "title": "",
+  "body": "  Suppose a local sales tax rate is and you purchase a car for .  How much sales tax is paid?  How much is the total cost of the car?                Tax = .  Total = .     "
+},
+{
+  "id": "sec-fin-ch-ex-3",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-3",
+  "type": "Checkpoint",
+  "number": "38",
+  "title": "",
+  "body": "  Suppose that you drive 15,000 miles per year and gas averages per gallon. What will you save in annual fuel expenses by owning a hybrid car averaging 45 miles per gallon rather than an SUV averaging 28 miles per gallon?       SUV cost: . Hybrid cost: . Savings: . (Note: exact rounding may vary depending on steps).   "
+},
+{
+  "id": "sec-fin-ch-ex-4",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-4",
+  "type": "Checkpoint",
+  "number": "39",
+  "title": "",
+  "body": "  A bank offers a CD that pays a simple interest rate of . How much must you put in this CD now in order to have for college tuition in five years?       Use .   .   "
+},
+{
+  "id": "sec-fin-ch-ex-5",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-5",
+  "type": "Checkpoint",
+  "number": "40",
+  "title": "",
+  "body": "  How much money should be deposited today in an account that earns compounded quarterly so that it will accumulate to in ten years?       Use .  .   "
+},
+{
+  "id": "sec-fin-ch-ex-6",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-6",
+  "type": "Checkpoint",
+  "number": "41",
+  "title": "",
+  "body": "  The cost of washer-dryer is . We can finance this by paying down and per month for 12 months. Determine the finance charge.       Total paid = Down payment + (Monthly payment months) Total = . Finance Charge = .   "
+},
+{
+  "id": "sec-fin-ch-ex-7",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-7",
+  "type": "Checkpoint",
+  "number": "42",
+  "title": "",
+  "body": "  At the time of her grandson's birth, a grandmother deposits in an account that pays compounded monthly. What will be the value of the account at the child's twenty-first birthday?         .   "
+},
+{
+  "id": "sec-fin-ch-ex-8",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-8",
+  "type": "Checkpoint",
+  "number": "43",
+  "title": "",
+  "body": "  You deposit in an account that pays interest compounded monthly. Find the future value after one year and the effective annual yield.    FV: ; Yield:    FV = . Yield = or .   "
+},
+{
+  "id": "sec-fin-ch-ex-9",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-9",
+  "type": "Checkpoint",
+  "number": "44",
+  "title": "",
+  "body": "  Find the value of an annuity of at the end of every 6 months at compounded semiannually for 10 years.    Value: ; Interest:    Use . . Total deposits = . Interest = .   "
+},
+{
+  "id": "sec-fin-ch-ex-10",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-10",
+  "type": "Checkpoint",
+  "number": "45",
+  "title": "",
+  "body": "  Financial goal of at compounded quarterly for 35 years. Find the periodic deposit.    Deposit:      .   "
+},
+{
+  "id": "sec-fin-ch-ex-11",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-11",
+  "type": "Checkpoint",
+  "number": "46",
+  "title": "",
+  "body": "  Credit card monthly rate . Unpaid balance . Payment of on Sept 7. Find interest due and total balance using unpaid balance method.    Interest: ; Total:    Remaining balance after payment = . Interest = . Total balance = .   "
+},
+{
+  "id": "sec-fin-ch-ex-12",
+  "level": "2",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-12",
+  "type": "Checkpoint",
+  "number": "47",
+  "title": "",
+  "body": "  Loan of at for 10 years.  Find monthly payments and total interest.  Compare to a 5-year term.        Payment: ; Interest:  Pay more per month; Save interest.      Use . 10-yr: . Total paid = . Interest = . 5-yr: . Total paid = . Interest = .   "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",

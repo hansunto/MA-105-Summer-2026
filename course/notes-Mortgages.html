@@ -36,11 +36,11 @@ window.MathJax = {
     "packages": {
       "[+]": [
         "base",
-        "extpfeil",
         "ams",
         "amscd",
         "color",
         "newcommand",
+        "textmacros",
         "knowl"
       ]
     }
@@ -56,10 +56,10 @@ window.MathJax = {
   "loader": {
     "load": [
       "input/asciimath",
-      "[tex]/extpfeil",
       "[tex]/amscd",
       "[tex]/color",
       "[tex]/newcommand",
+      "[tex]/textmacros",
       "[pretext]/mathjaxknowl3.js"
     ],
     "paths": {
@@ -184,6 +184,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-Identify-Formulas.html" class="internal"><span class="title">Identify Formulas to use: Simple, Compound, Annuity, Loan</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Identify-Formulas.html#exercises-finance-answers" class="internal"><span class="title">Identify the Formula to Use</span></a></div></li></ul>
 </li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-fin-ch-ex.html" class="internal"><span class="title">Chapter Exercise</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -238,7 +239,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para">The regular payment amount, <span class="process-math">\(PMT\text{,}\)</span> required to repay a loan of <span class="process-math">\(P\)</span> dollars paid <span class="process-math">\(n\)</span> times per year over <span class="process-math">\(t\)</span> years at an annual rate <span class="process-math">\(r\)</span> is given by:</div>
 <div class="displaymath process-math" id="eqn-loan-formula">
 \begin{equation}
-PMT = \frac{P\left(\frac{r}{n}\right)}{\left[1-\left(1+\frac{r}{n}\right)^{-nt}\right]}\tag{0}
+PMT = \frac{P\left(\frac{r}{n}\right)}{\left[1-\left(1+\frac{r}{n}\right)^{-nt}\right]}\tag{4}
 \end{equation}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#def-loan-payment-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>

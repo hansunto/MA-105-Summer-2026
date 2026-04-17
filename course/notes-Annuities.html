@@ -36,11 +36,11 @@ window.MathJax = {
     "packages": {
       "[+]": [
         "base",
-        "extpfeil",
         "ams",
         "amscd",
         "color",
         "newcommand",
+        "textmacros",
         "knowl"
       ]
     }
@@ -56,10 +56,10 @@ window.MathJax = {
   "loader": {
     "load": [
       "input/asciimath",
-      "[tex]/extpfeil",
       "[tex]/amscd",
       "[tex]/color",
       "[tex]/newcommand",
+      "[tex]/textmacros",
       "[pretext]/mathjaxknowl3.js"
     ],
     "paths": {
@@ -184,6 +184,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-Identify-Formulas.html" class="internal"><span class="title">Identify Formulas to use: Simple, Compound, Annuity, Loan</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-Identify-Formulas.html#exercises-finance-answers" class="internal"><span class="title">Identify the Formula to Use</span></a></div></li></ul>
 </li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-fin-ch-ex.html" class="internal"><span class="title">Chapter Exercise</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -279,7 +280,7 @@ I = 3,246.40 - 3,000 = \$246.40
 <div class="para">If <span class="process-math">\(P\)</span> is the deposit made at the end of each compounding period for an annuity that pays an annual interest rate <span class="process-math">\(r\)</span> compounded <span class="process-math">\(n\)</span> times per year, the future value, <span class="process-math">\(FV\)</span> or <span class="process-math">\(A\text{,}\)</span> of the annuity after <span class="process-math">\(t\)</span> years is:</div>
 <div class="displaymath process-math" id="annuity-formula">
 \begin{equation}
-FV = A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}\tag{0}
+FV = A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}\tag{3}
 \end{equation}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#Value-of-an-Annuity-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
