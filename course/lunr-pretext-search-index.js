@@ -775,6 +775,15 @@ var ptx_lunr_docs = [
   "body": "  Loan of at for 10 years.  Find monthly payments and total interest.  Compare to a 5-year term.        Payment: ; Interest:  Pay more per month; Save interest.      Use . 10-yr: . Total paid = . Interest = . 5-yr: . Total paid = . Interest = .   "
 },
 {
+  "id": "notes-Voting",
+  "level": "1",
+  "url": "notes-Voting.html",
+  "type": "Section",
+  "number": "",
+  "title": "Voting Methods",
+  "body": " Voting Methods  "
+},
+{
   "id": "notes-week-01",
   "level": "1",
   "url": "notes-week-01.html",
