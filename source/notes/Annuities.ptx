@@ -65,7 +65,8 @@
         for an annuity that pays an annual interest rate <m>r</m> compounded 
         <m>n</m> times per year, the future value, <m>FV</m> or <m>A</m>, 
         of the annuity after <m>t</m> years is:
-        <me>FV = A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}</me>
+        <men xml:id="annuity-formula">
+            FV = A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}</men>
     </p>
     </statement>
 </definition>
