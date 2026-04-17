@@ -372,6 +372,120 @@ For example, the price of a home is $195,000. The bank requires a 10% down payme
   </solution>
 </exercise>
 
+<definition xml:id="def-max-purchase-price">
+  <title>Maximum Purchase Price Formula</title>
+  <statement>
+    <p>
+      The <alert>maximum purchase price</alert> for a house is given by
+      <me>
+        \text{maximum purchase price} = \frac{PMT \cdot \left[1 - \left(1 + \frac{r}{n}\right)^{-nt}\right]}{\left(\frac{r}{n}\right)}
+      </me>
+      where:
+      <dl>
+        <li>
+          <title><m>PMT</m></title>
+          <p>is the monthly mortgage payment</p>
+        </li>
+        <li>
+          <title><m>n</m></title>
+          <p>is the number of payments per year</p>
+        </li>
+        <li>
+          <title><m>t</m></title>
+          <p>is the total number of years (loan term)</p>
+        </li>
+        <li>
+          <title><m>r</m></title>
+          <p>is the annual interest rate (as a decimal)</p>
+        </li>
+      </dl>
+    </p>
+  </statement>
+</definition>
+
+<example xml:id="ex-max-purchase-M05">
+  <title>Calculating Maximum Mortgage Amount</title>
+  <statement>
+    <p>
+      Amanda and Fred are buying a house on a 30-year mortgage. They can afford a monthly payment of $800. If the annual interest rate (APR) is 3.75%, what is the maximum mortgage amount they can take out?
+    </p>
+  </statement>
+
+  <solution>
+    <p>
+      We use the maximum purchase price formula with <m>PMT = 800</m>, <m>r = 0.0375</m>, <m>n = 12</m>, and <m>t = 30</m>:
+      <me>
+        \text{Max Price} = \frac{800 \cdot \left[1 - \left(1 + \frac{0.0375}{12}\right)^{-12 \cdot 30}\right]}{\left(\frac{0.0375}{12}\right)}
+      </me>
+    </p>
+    <p>
+      First, calculate the periodic interest rate: 
+      <m>\frac{0.0375}{12} = 0.003125</m>.
+    </p>
+    <p>
+      Now, substitute into the formula:
+      <md>
+        <mrow>\text{Max Price} \amp = \frac{800 \cdot \left[1 - (1.003125)^{-360}\right]}{0.003125}</mrow>
+        <mrow>\text{Max Price} \amp = \frac{800 \cdot [1 - 0.325016]}{0.003125}</mrow>
+        <mrow>\text{Max Price} \amp = \frac{800 \cdot 0.674984}{0.003125}</mrow>
+        <mrow>\text{Max Price} \amp \approx \$172,795.90</mrow>
+      </md>
+    </p>
+    <p>
+      Amanda and Fred can take out a mortgage of approximately <alert>$172,795.90</alert>.
+    </p>
+  </solution>
+</example>
+
+<exercise xml:id="ex-home-affordability-M06">
+  <title>Home Affordability and Loan Terms</title>
+  <statement>
+    <p>
+      Suppose you want to purchase a house and your take-home pay is $3,220 per month. You wish to stay within recommended guidelines by spending <m>1/4</m> of your take-home pay on a house payment. You have $15,300 saved for a down payment. With your excellent credit, you can get an APR of 3.28% compounded monthly.
+    </p>
+    <ol>
+      <li><p>What is the total cost of a house you could afford with a 15-year mortgage?</p></li>
+      <li><p>What is the most that you could afford with a traditional 30-year mortgage?</p></li>
+    </ol>
+  </statement>
+
+  <answer>
+    <p>
+      <ol>
+        <li><p>15-year mortgage: $130,175.76</p></li>
+        <li><p>30-year mortgage: $199,444.60</p></li>
+      </ol>
+    </p>
+  </answer>
+
+  <solution>
+    <p>
+      First, calculate the allowed monthly payment (<m>PMT</m>):
+      <me>PMT = \frac{1}{4} \times \$3,220 = \$805</me>
+      The monthly interest rate is <m>\frac{r}{n}= \frac{0.0328}{12} \approx 0.0027333</m>.
+    </p>
+    <ol>
+      <li>
+        <title>15-Year Mortgage Affordability</title>
+        <p>
+          Using the Maximum Purchase Price formula with <m>n=12</m> and <m>t=15</m> (<m>nt = 180</m>):
+          <me>P = \frac{805 \cdot [1 - (1 + 0.0027333)^{-180}]}{0.0027333} \approx \$114,875.76</me>
+          The total house cost includes the down payment:
+          <me>\text{Total Cost} = \$114,875.76 + \$15,300 = \$130,175.76</me>
+        </p>
+      </li>
+      <li>
+        <title>30-Year Mortgage Affordability</title>
+        <p>
+          Using the formula with <m>t=30</m> (<m>nt = 360</m>):
+          <me>P = \frac{805 \cdot [1 - (1 + 0.0027333)^{-360}]}{0.0027333} \approx \$184,144.60</me>
+          The total house cost includes the down payment:
+          <me>\text{Total Cost} = \$184,144.60 + \$15,300 = \$199,444.60</me>
+        </p>
+      </li>
+    </ol>
+  </solution>
+</exercise>
 
 
 

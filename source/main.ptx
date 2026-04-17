@@ -32,6 +32,7 @@
       <xi:include href="./notes/compoundinterest.ptx" />
       <xi:include href="./notes/Annuities.ptx"/>
       <xi:include href="./notes/mortgage.ptx"/>
+      <xi:include href="./notes/identifyformula.ptx" />
     </chapter>
 
 
