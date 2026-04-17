@@ -36,6 +36,17 @@
       <xi:include href="./notes/finchex.ptx" />
     </chapter>
 
+    <chapter xml:id="ch-Voting-Apportionment">
+      <title>Voting and Apportionment</title>
+      <introduction>
+        <p>
+          This chapter contains notes on voting and apportionment topics. 
+          It is intended to be a resource for students who want to learn more about voting and apportionment concepts and how they apply to their lives.
+        </p>
+      </introduction>
+      <xi:include href="./notes/voting.ptx" />
+    </chapter>
+
 
     <chapter xml:id="course-notes">
       <title>Course Notes</title>
