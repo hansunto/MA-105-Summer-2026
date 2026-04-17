@@ -336,8 +336,6 @@
     </solution>
 </example>
 
-<exercises xml:id="practice-annuity">
-  <title>Exercises for Practice</title>
 <exercise xml:id="exercise-a3">
     <title>Calculating the Value of an Annuity</title>
     <statement>
@@ -393,6 +391,8 @@
     </solution>
 </exercise>
 
+<exercises xml:id="practice-annuity">
+  <title>Exercises for Practice</title>
 <exercise xml:id="exercise-a4">
     <title>Retirement Savings: Growth After Contributions Cease</title>
     <statement>
