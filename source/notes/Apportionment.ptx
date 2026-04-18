@@ -1,0 +1,339 @@
+<section xml:id="section-apportionment">
+  <title>Apportionment</title>
+  <p>
+    <term>Apportionment</term> is the method of distributing power in political systems based on population density. Apportionment may reflect the availability of buses for city routes or doctors for patients.
+  </p>
+
+  <definition xml:id="def-standard-divisor">
+    <title>The Standard Divisor</title>
+    <statement>
+      <p>
+        The standard divisor is found by dividing the total population under consideration by the number of items to be allocated.
+      </p>
+      <me>\text{Standard divisor} = \frac{\text{total population in a group}}{\text{total number of items to be apportioned}}</me>
+    </statement>
+  </definition>
+
+  <definition xml:id="def-standard-quota">
+    <title>The Standard Quota</title>
+    <statement>
+      <p>
+        The standard quota for a particular group is found by dividing that group's population by the standard divisor.
+      </p>
+      <me>\text{Standard quota} = \frac{\text{population of a particular group}}{\text{standard divisor}}</me>
+    </statement>
+  </definition>
+
+  <example>
+    <statement>
+      <p>
+        Palm Springs is composed of four states: A, B, C, and D. According to the country's constitution, the congress will have 30 seats, divided among the four states according to their respective populations. Find the standard quotas for states A, B, C, and D and complete the table below.
+      </p>
+      <table xml:id="table-standard-quotas">
+        <title>Population of Palm Springs by State</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>State</cell>
+            <cell>A</cell>
+            <cell>B</cell>
+            <cell>C</cell>
+            <cell>D</cell>
+            <cell>Total</cell>
+          </row>
+          <row>
+            <cell>Population (in thousands)</cell>
+            <cell>275</cell>
+            <cell>383</cell>
+            <cell>465</cell>
+            <cell>767</cell>
+            <cell>1890</cell>
+          </row>
+          <row>
+            <cell>Standard Quota</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+        <p>
+        First, we find the <term>Standard Divisor</term> (<m>SD</m>):
+        <me>SD = \frac{1890}{30} = 63</me>
+      </p>
+      <p>
+        Now, divide each state's population by the divisor to find the <term>Standard Quota</term> (<m>SQ</m>):
+        <ul>
+          <li><p>State A: <m>275 / 63 \approx 4.3651</m></p></li>
+          <li><p>State B: <m>383 / 63 \approx 6.0794</m></p></li>
+          <li><p>State C: <m>465 / 63 \approx 7.3810</m></p></li>
+          <li><p>State D: <m>767 / 63 \approx 12.1746</m></p></li>
+        </ul>
+      </p>
+      <table xml:id="table-sq">
+        <title></title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>State</cell>
+            <cell>A</cell>
+            <cell>B</cell>
+            <cell>C</cell>
+            <cell>D</cell>
+            <cell>Total</cell>
+          </row>
+          <row>
+            <cell>Population (in thousands)</cell>
+            <cell>275</cell>
+            <cell>383</cell>
+            <cell>465</cell>
+            <cell>767</cell>
+            <cell>1890</cell>
+          </row>
+          <row>
+            <cell>Standard Quota</cell>
+            <cell>4.365</cell>
+            <cell>6.079</cell>
+            <cell>7.381</cell>
+            <cell>12.175</cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+
+    </solution>
+  </example>
+
+  <assemblage>
+      <p> The <term>lower quota</term> is the standard quota rounded down to the nearest whole number. 
+        The <term>upper quota</term> is the standard quota rounded up to the nearest whole number. </p>
+      <p> A group's apportionment should be either its upper quota or its lower quota. 
+        An apportionment method that guarantees that this will always occurs is said to <term>satisfy the quota rule</term>. </p>
+  </assemblage>
+
+  <algorithm xml:id="method-hamilton">
+    <title>Hamilton's Method</title>
+    <statement>
+      <p>
+        <ol>
+          <li><p>Calculate each group's standard quota.</p></li>
+          <li><p>Find the lower quota for each group.</p></li>
+          <li><p>Give surplus items, one at a time, to groups with the largest decimal parts until no surplus remains.</p></li>
+        </ol>
+      </p>
+    </statement>
+  </algorithm>
+
+  <example>
+    <statement>
+      <p>From <xref ref="table-standard-quotas"/>, use Hamilton's method to apportion the 30 congressmen for Palm Springs.</p>
+      <table xml:id="table-hamilton-apportionment">
+        <title>Hamilton's Method Table</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>State</cell><cell>A</cell><cell>B</cell><cell>C</cell><cell>D</cell><cell>Total</cell>
+          </row>
+          <row><cell>Population</cell><cell>275</cell><cell>383</cell><cell>465</cell><cell>767</cell><cell>1890</cell></row>
+          <row><cell>Standard Quota</cell><cell>4.365</cell><cell>6.079</cell><cell>7.381</cell><cell>12.175</cell><cell>30.00</cell></row>
+          <row><cell>Lower Quota</cell><cell>4</cell><cell>6</cell><cell>7</cell><cell>12</cell><cell>29</cell></row>
+          <row><cell>Surplus</cell><cell>+0</cell><cell>+0</cell><cell>+1</cell><cell>+0</cell><cell>1</cell></row>
+          <row><cell>Apportionment</cell><cell>4</cell><cell>6</cell><cell>8</cell><cell>12</cell><cell>30</cell></row>
+        </tabular>
+      </table>
+      <p> 1. The Standard Divisor is <m>63</m>. </p>
+      <p> 2. Lower quotas sum to 29, leaving 1 surplus seat. </p>
+      <p> 3. State C has the largest decimal part (.381), so it receives the surplus seat. </p>
+    </statement>
+    <solution>
+      <p>
+        Following the steps of <term>Hamilton's Method</term>:
+        <ol>
+          <li>
+            <p>
+              The sum of the <term>Lower Quotas</term> is <m>4 + 6 + 7 + 12 = 29</m>. 
+              Since we must allocate 30 seats, there is <m>30 - 29 = 1</m> surplus seat.
+            </p>
+          </li>
+          <li>
+            <p>
+              We look at the decimal parts of the Standard Quotas:
+              <ul>
+                <li><p>A: <m>0.365</m></p></li>
+                <li><p>B: <m>0.079</m></p></li>
+                <li><p>C: <m>0.381</m></p></li>
+                <li><p>D: <m>0.175</m></p></li>
+              </ul>
+            </p>
+          </li>
+          <li>
+            <p>
+              State C has the largest decimal part (<m>0.381</m>), so it receives the 1 surplus seat.
+            </p>
+          </li>
+          <li>
+            <p>
+              Final counts: A=4, B=6, C=8, D=12.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+<assemblage>
+      <p>
+        A <term>Modified divisor</term> is a divisor, chosen by guess-and-check, that is used to make the sum of the modified quotas exactly equal to the number of items to be apportioned.
+      </p>
+  </assemblage>
+
+  <algorithm xml:id="method-jefferson">
+    <title>Jefferson's Method</title>
+    <statement>
+      <p> Find a <term>modified divisor</term> such that when each group's modified quota is rounded down (<term>modified lower quota</term>), 
+        the sum equals the number of items to be apportioned. 
+        Apportion to each group its modified lower quota.</p>
+      <ol>
+        <li><p>Calculate the <term>Standard Divisor</term> (<m>SD = \text{Total Pop} / \text{Seats}</m>).</p></li>
+        <li><p>Calculate <term>Standard Quotas</term> and round down to find <term>Lower Quotas</term>.</p></li>
+        <li><p>If the sum of Lower Quotas is less than the total seats, choose a <term>Modified Divisor</term> (<m>MD</m>) that is <em>smaller</em> than the <m>SD</m>.</p></li>
+        <li><p>Recalculate quotas using <m>MD</m> and round down until the sum exactly matches the total seats.</p></li>
+      </ol>
+    </statement>
+  </algorithm>
+
+  <!-- Example 1: Palm Springs with Jefferson -->
+  <example xml:id="exe-palm-springs-jefferson">
+    <statement>
+      <p>
+        From <xref ref="table-standard-quotas"/>, apportion 30 seats to Palm Springs using Jefferson's Method.
+      </p>
+    </statement>
+    <solution>
+      <p>
+
+        The standard divisor (<m>63</m>) produced a sum of 29. For Jefferson's method, we must <em>decrease</em> the divisor to increase the quotas. Using a <term>Modified Divisor</term> of <m>61</m>:
+        <ul>
+          <li><p>A: <m>275/61 \approx 4.50 \to 4</m></p></li>
+          <li><p>B: <m>383/61 \approx 6.27 \to 6</m></p></li>
+          <li><p>C: <m>465/61 \approx 7.62 \to 7</m></p></li>
+          <li><p>D: <m>767/61 \approx 12.57 \to 13</m></p></li>
+        </ul>
+        Sum: <m>4+6+7+13 = 30</m>. <strong>State D</strong> receives the extra seat.
+      </p>
+      <table xml:id="table-jefferson-palm-springs">
+        <title>Jefferson's Method: Palm Springs</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>State</cell><cell>A</cell><cell>B</cell><cell>C</cell><cell>D</cell><cell>Total</cell>
+          </row>
+          <row><cell>Population</cell><cell>275</cell><cell>383</cell><cell>465</cell><cell>767</cell><cell>1890</cell></row>
+          <row><cell>Standard Quota (SD=63)</cell><cell>4.365</cell><cell>6.079</cell><cell>7.381</cell><cell>12.175</cell><cell>30</cell></row>
+          <row><cell>Lower Quota</cell><cell>4</cell><cell>6</cell><cell>7</cell><cell>12</cell><cell>29</cell></row>
+          <row><cell>Modified Quota (MD=61)</cell><cell>4.508</cell><cell>6.279</cell><cell>7.623</cell><cell>12.574</cell><cell>30.98</cell></row>
+          <row><cell>Modified LQ (Apportionment)</cell><cell>4</cell><cell>6</cell><cell>7</cell><cell>13</cell><cell>30</cell></row>
+        </tabular>
+      </table>
+    </solution>
+  </example>
+
+  <!-- Exercise 1: Bus Apportionment -->
+  <exercise xml:id="exe-bus-apportionment">
+    <statement>
+      <p>Apportion 11 buses to the three towns using Jefferson's method.</p>
+      <table xml:id="table-bus-jefferson">
+        <title>Bus Apportionment Table</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>Town</cell><cell>Westboro</cell><cell>Shrewbury</cell><cell>Worcester</cell><cell>Total</cell>
+          </row>
+          <row><cell>Population</cell><cell>89</cell><cell>120</cell><cell>168</cell><cell>377</cell></row>
+          <!-- <row><cell>Standard Quota</cell><cell>2.59</cell><cell>3.50</cell><cell>4.90</cell><cell>10.99</cell></row>-->
+          <!-- <row><cell>Lower Quota</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>9</cell></row>-->
+          <!-- <row><cell>Modified Quota (MD=31)</cell><cell>2.87</cell><cell>3.87</cell><cell>5.41</cell><cell>12.15</cell></row>-->
+          <!-- <row><cell>Modified LQ</cell><cell>2</cell><cell>3</cell><cell>5</cell><cell>10</cell></row>-->
+          <!-- <row><cell>Modified Quota (MD=30)</cell><cell>2.96</cell><cell>4.00</cell><cell>5.60</cell><cell>12.56</cell></row>-->
+          <row><cell>Final Apportionment</cell><cell> </cell><cell> </cell><cell> </cell><cell> </cell></row>
+        </tabular>
+      </table>
+    </statement>
+    <solution>
+        <!-- Step 1 & 2 -->
+      <p>
+        <title>Step 1: Standard Divisor and Initial Quotas</title>
+        First, find the Standard Divisor: <m>SD = 377 / 11 \approx 34.27</m>.
+      </p>
+      <table xml:id="table-bus-trial-1">
+        <title>Trial 1: Using Standard Divisor (34.27)</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>Town</cell><cell>Westboro</cell><cell>Shrewbury</cell><cell>Worcester</cell><cell>Total</cell>
+          </row>
+          <row><cell>Population</cell><cell>89</cell><cell>120</cell><cell>168</cell><cell>377</cell></row>
+          <row><cell>Standard Quota</cell><cell>2.59</cell><cell>3.50</cell><cell>4.90</cell><cell>10.99</cell></row>
+          <row><cell>Lower Quota</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>9</cell></row>
+        </tabular>
+      </table>
+      <p>The sum (9) is too low. We need 11 buses. We must <em>decrease</em> the divisor.</p>
+
+      <!-- Step 3: Modified Divisor Trial 1 -->
+      <p>
+        <title>Step 2: First Modified Divisor Trial (MD = 31)</title>
+        Let's try a smaller divisor, <m>MD = 31</m>.
+      </p>
+      <table xml:id="table-bus-trial-2">
+        <title>Trial 2: Modified Divisor (31)</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>Town</cell><cell>Westboro</cell><cell>Shrewbury</cell><cell>Worcester</cell><cell>Total</cell>
+          </row>
+          <row><cell>Modified Quota</cell><cell>2.87</cell><cell>3.87</cell><cell>5.41</cell><cell>12.15</cell></row>
+          <row><cell>Lower Quota</cell><cell>2</cell><cell>3</cell><cell>5</cell><cell>10</cell></row>
+        </tabular>
+      </table>
+      <p>The sum (10) is still too low. We must decrease the divisor further.</p>
+
+      <!-- Step 4: Final Trial -->
+      <p>
+        <title>Step 3: Successful Modified Divisor (MD = 30)</title>
+        Trying <m>MD = 30</m>.
+      </p>
+      <table xml:id="table-bus-final">
+        <title>Final Apportionment: Modified Divisor (30)</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>Town</cell><cell>Westboro</cell><cell>Shrewbury</cell><cell>Worcester</cell><cell>Total</cell>
+          </row>
+          <row><cell>Modified Quota</cell><cell>2.96</cell><cell>4.00</cell><cell>5.60</cell><cell>12.56</cell></row>
+          <row><cell>Modified LQ</cell><cell>2</cell><cell>4</cell><cell>5</cell><cell>11</cell></row>
+        </tabular>
+      </table>
+      <p>
+        The sum is exactly 11. 
+        <strong>Final Apportionment:</strong> Westboro: 2, Shrewbury: 4, Worcester: 5.
+      </p>
+      <table xml:id="table-bus-jefferson-work">
+        <title>Bus Apportionment Work Table</title>
+        <tabular top="minor" left="minor" right="minor" bottom="minor">
+          <row header="yes">
+            <cell>Town</cell><cell>Westboro</cell><cell>Shrewbury</cell><cell>Worcester</cell><cell>Total</cell>
+          </row>
+          <row><cell>Population</cell><cell>89</cell><cell>120</cell><cell>168</cell><cell>377</cell></row>
+          <row><cell>Standard Quota</cell><cell>2.59</cell><cell>3.50</cell><cell>4.90</cell><cell>10.99</cell></row>
+          <row><cell>Lower Quota</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>9</cell></row>
+          <row><cell>Modified Quota (MD=31)</cell><cell>2.87</cell><cell>3.87</cell><cell>5.41</cell><cell>12.15</cell></row>
+          <row><cell>Modified LQ</cell><cell>2</cell><cell>3</cell><cell>5</cell><cell>10</cell></row>
+          <row><cell>Modified Quota (MD=30)</cell><cell>2.96</cell><cell>4.00</cell><cell>5.60</cell><cell>12.56</cell></row>
+          <row><cell>Final Apportionment</cell><cell>2</cell><cell>4</cell><cell>5</cell><cell>11</cell></row>
+        </tabular>
+      </table>
+    </solution>
+  </exercise>
+
+
+
+
+
+
+</section>

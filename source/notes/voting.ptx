@@ -96,6 +96,7 @@
         </solution>
       </example>
 
+<!-- Plurality Section -->
       <definition xml:id="def-plurality-method">
         <title>The Plurality Method</title>
         <statement>
@@ -115,81 +116,6 @@
             A received 130 first-place votes, D received <m>120+100=220</m> first-place votes and C received 150 first-place votes. 
             Thus Daniel is the winner.
           </p>
-        </solution>
-      </example>
-
-        <!-- Borda Count Section -->
-      <definition xml:id="def-borda-count">
-        <title>The Borda Count Method</title>
-        <statement>
-          <p>
-            Each voter ranks the candidates from the most favorable to the least favorable. 
-            Each last-place vote is given 1 point, each next-to-last-place vote is given 2 points, and so on. 
-            The points are totaled for each candidate separately. The candidate with the most points is the winner.
-          </p>
-        </statement>
-      </definition>
-
-      <example xml:id="exe-borda-example">
-        <title>Borda Count Example</title>
-        <statement>
-          <p>
-            Using the preference data from <xref ref="tab-preference-election" />, 
-            who is declared the winner using the Borda Count Method?
-          </p>
-        </statement>
-        <solution>
-          <p>
-            With 4 candidates, 1st place gets 4 pts, 2nd gets 3 pts, 3rd gets 2 pts, and 4th gets 1 pt.
-          </p>
-          <table xml:id="tab-borda-calculation">
-  <title>Borda Count Calculation Table</title>
-  <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
-    <row bottom="minor">
-      <cell halign="left">Number of Votes</cell>
-      <cell>130</cell>
-      <cell>120</cell>
-      <cell>100</cell>
-      <cell>150</cell>
-    </row>
-    <row>
-      <cell halign="left">1st choice: 4 pts</cell>
-      <cell>A: <m>130 \times 4 = 520</m></cell>
-      <cell>D: <m>120 \times 4 = 480</m></cell>
-      <cell>D: <m>100 \times 4 = 400</m></cell>
-      <cell>C: <m>150 \times 4 = 600</m></cell>
-    </row>
-    <row>
-      <cell halign="left">2nd choice: 3 pts</cell>
-      <cell>B: <m>130 \times 3 = 390</m></cell>
-      <cell>B: <m>120 \times 3 = 360</m></cell>
-      <cell>B: <m>100 \times 3 = 300</m></cell>
-      <cell>B: <m>150 \times 3 = 450</m></cell>
-    </row>
-    <row>
-      <cell halign="left">3rd choice: 2 pts</cell>
-      <cell>C: <m>130 \times 2 = 260</m></cell>
-      <cell>C: <m>120 \times 2 = 240</m></cell>
-      <cell>A: <m>100 \times 2 = 200</m></cell>
-      <cell>A: <m>150 \times 2 = 300</m></cell>
-    </row>
-    <row bottom="minor">
-      <cell halign="left">4th choice: 1 pt</cell>
-      <cell>D: <m>130 \times 1 = 130</m></cell>
-      <cell>A: <m>120 \times 1 = 120</m></cell>
-      <cell>C: <m>100 \times 1 = 100</m></cell>
-      <cell>D: <m>150 \times 1 = 150</m></cell>
-    </row>
-  </tabular>
-</table>
-
-          <ul>
-            <li><p><alert>Alice (A):</alert> <m>(130 \times 4) + (120 \times 1) + (100 \times 2) + (150 \times 2) = 520 + 120 + 200 + 300 = 1140</m> pts</p></li>
-            <li><p><alert>Bonnie (B):</alert> <m>(130 \times 3) + (120 \times 3) + (100 \times 3) + (150 \times 3) = 390 + 360 + 300 + 450 = 1500</m> pts</p></li>
-            <li><p><alert>Carlos (C):</alert> <m>(130 \times 2) + (120 \times 2) + (100 \times 1) + (150 \times 4) = 260 + 240 + 100 + 600 = 1200</m> pts</p></li>
-            <li><p><alert>Daniel (D):</alert> <m>(130 \times 1) + (120 \times 4) + (100 \times 4) + (150 \times 1) = 130 + 480 + 400 + 150 = 1160</m> pts</p></li>
-          </ul>
-          <p>Bonnie is the winner with 1500 points.</p>
         </solution>
       </example>
 
@@ -297,7 +223,83 @@
           <p>Carlos now has 280 votes (a majority). Carlos is the winner.</p>
         </solution>
       </example>
+     
+        <!-- Borda Count Section -->
+      <definition xml:id="def-borda-count">
+        <title>The Borda Count Method</title>
+        <statement>
+          <p>
+            Each voter ranks the candidates from the most favorable to the least favorable. 
+            Each last-place vote is given 1 point, each next-to-last-place vote is given 2 points, and so on. 
+            The points are totaled for each candidate separately. The candidate with the most points is the winner.
+          </p>
+        </statement>
+      </definition>
 
+      <example xml:id="exe-borda-example">
+        <title>Borda Count Example</title>
+        <statement>
+          <p>
+            Using the preference data from <xref ref="tab-preference-election" />, 
+            who is declared the winner using the Borda Count Method?
+          </p>
+        </statement>
+        <solution>
+          <p>
+            With 4 candidates, 1st place gets 4 pts, 2nd gets 3 pts, 3rd gets 2 pts, and 4th gets 1 pt.
+          </p>
+          <table xml:id="tab-borda-calculation">
+  <title>Borda Count Calculation Table</title>
+  <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+    <row bottom="minor">
+      <cell halign="left">Number of Votes</cell>
+      <cell>130</cell>
+      <cell>120</cell>
+      <cell>100</cell>
+      <cell>150</cell>
+    </row>
+    <row>
+      <cell halign="left">1st choice: 4 pts</cell>
+      <cell>A: <m>130 \times 4 = 520</m></cell>
+      <cell>D: <m>120 \times 4 = 480</m></cell>
+      <cell>D: <m>100 \times 4 = 400</m></cell>
+      <cell>C: <m>150 \times 4 = 600</m></cell>
+    </row>
+    <row>
+      <cell halign="left">2nd choice: 3 pts</cell>
+      <cell>B: <m>130 \times 3 = 390</m></cell>
+      <cell>B: <m>120 \times 3 = 360</m></cell>
+      <cell>B: <m>100 \times 3 = 300</m></cell>
+      <cell>B: <m>150 \times 3 = 450</m></cell>
+    </row>
+    <row>
+      <cell halign="left">3rd choice: 2 pts</cell>
+      <cell>C: <m>130 \times 2 = 260</m></cell>
+      <cell>C: <m>120 \times 2 = 240</m></cell>
+      <cell>A: <m>100 \times 2 = 200</m></cell>
+      <cell>A: <m>150 \times 2 = 300</m></cell>
+    </row>
+    <row bottom="minor">
+      <cell halign="left">4th choice: 1 pt</cell>
+      <cell>D: <m>130 \times 1 = 130</m></cell>
+      <cell>A: <m>120 \times 1 = 120</m></cell>
+      <cell>C: <m>100 \times 1 = 100</m></cell>
+      <cell>D: <m>150 \times 1 = 150</m></cell>
+    </row>
+  </tabular>
+</table>
+
+          <ul>
+            <li><p><alert>Alice (A):</alert> <m>(130 \times 4) + (120 \times 1) + (100 \times 2) + (150 \times 2) = 520 + 120 + 200 + 300 = 1140</m> pts</p></li>
+            <li><p><alert>Bonnie (B):</alert> <m>(130 \times 3) + (120 \times 3) + (100 \times 3) + (150 \times 3) = 390 + 360 + 300 + 450 = 1500</m> pts</p></li>
+            <li><p><alert>Carlos (C):</alert> <m>(130 \times 2) + (120 \times 2) + (100 \times 1) + (150 \times 4) = 260 + 240 + 100 + 600 = 1200</m> pts</p></li>
+            <li><p><alert>Daniel (D):</alert> <m>(130 \times 1) + (120 \times 4) + (100 \times 4) + (150 \times 1) = 130 + 480 + 400 + 150 = 1160</m> pts</p></li>
+          </ul>
+          <p>Bonnie is the winner with 1500 points.</p>
+        </solution>
+      </example>
+
+ 
       <!-- Pairwise Comparison Section -->
       <definition xml:id="def-pairwise-comparison">
         <title>The Pairwise Comparison Method</title>
@@ -766,6 +768,169 @@
   </solution>
 </exercise>
 
+<exercise xml:id="math-club-election">
+    <title>Math Club Presidential Election</title>
+    <statement>
+        <p>
+            Four candidates are running for president of the Math Club: Paula (P), Sylvia (S), Craig (C), and Brian (B). The results of the election are shown in the following preference table:
+        </p>
+        <table xml:id="table-math-club-results">
+            <title>Election Preference Schedule</title>
+            <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+                <row bottom="medium">
+                    <cell>Number of Votes</cell>
+                    <cell>15</cell>
+                    <cell>19</cell>
+                    <cell>23</cell>
+                    <cell>10</cell>
+                    <cell>18</cell>
+                    <cell>15</cell>
+                </row>
+                <row>
+                    <cell>First choice</cell>
+                    <cell>B</cell>
+                    <cell>C</cell>
+                    <cell>P</cell>
+                    <cell>P</cell>
+                    <cell>S</cell>
+                    <cell>B</cell>
+                </row>
+                <row>
+                    <cell>Second choice</cell>
+                    <cell>S</cell>
+                    <cell>P</cell>
+                    <cell>S</cell>
+                    <cell>B</cell>
+                    <cell>C</cell>
+                    <cell>S</cell>
+                </row>
+                <row>
+                    <cell>Third choice</cell>
+                    <cell>P</cell>
+                    <cell>S</cell>
+                    <cell>B</cell>
+                    <cell>C</cell>
+                    <cell>P</cell>
+                    <cell>C</cell>
+                </row>
+                <row>
+                    <cell>Fourth choice</cell>
+                    <cell>C</cell>
+                    <cell>B</cell>
+                    <cell>C</cell>
+                    <cell>S</cell>
+                    <cell>B</cell>
+                    <cell>P</cell>
+                </row>
+            </tabular>
+        </table>
+        <p>
+            <ol label="1">
+                <li><p>How many students voted in the election?</p></li>
+                <li><p>How many students voted Brian as their first choice?</p></li>
+                <li><p>Who would win the presidency using the Plurality method?</p></li>
+                <li><p>Is there a Majority Winner?</p></li>
+                <li><p>Who would win the presidency using the Plurality with Elimination method?</p></li>
+                <li><p>Who would win the presidency using the Borda count method?</p></li>
+                <li>
+                    <p>
+                        Who would win the presidency using the pairwise comparison method? 
+                        If a tie, use the Plurality method between the winners to determine the tie-breaker.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+
+    <!-- Short Answers -->
+    <answer>
+        <p>
+            <ol label="1">
+                <li><p>100 students</p></li>
+                <li><p>30 students</p></li>
+                <li><p>Paula (33 votes)</p></li>
+                <li><p>No (Majority requires 51 votes)</p></li>
+                <li><p>Craig</p></li>
+                <li><p>Sylvia (279 points)</p></li>
+                <li><p>Paula (3 points)</p></li>
+            </ol>
+        </p>
+    </answer>
+
+    <solution>
+  <p>
+    <ol label="1">
+      <!-- Parts 1-4 remain as previously provided -->
+      <li><p>Total Votes: 100.</p></li>
+      <li><p>Brian 1st choice: 30.</p></li>
+      <li><p>Plurality Winner: Paula (33).</p></li>
+      <li><p>Majority: No (Requires 51).</p></li>
+
+      <li>
+        <p><strong>Plurality with Elimination:</strong></p>
+        <p><em>Round 1:</em> Sylvia has the fewest 1st-place votes (18) and is eliminated.</p>
+        <table xml:id="table-elimination-round-2">
+
+          <title>Round 2 (Sylvia Eliminated)</title>
+          <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+            <row bottom="medium"><cell>Votes</cell><cell>15</cell><cell>19</cell><cell>23</cell><cell>10</cell><cell>18</cell><cell>15</cell></row>
+            <row><cell>1st</cell><cell>B</cell><cell>C</cell><cell>P</cell><cell>P</cell><cell>C</cell><cell>B</cell></row>
+            <row><cell>2nd</cell><cell>P</cell><cell>P</cell><cell>B</cell><cell>B</cell><cell>P</cell><cell>C</cell></row>
+            <row><cell>3rd</cell><cell>C</cell><cell>B</cell><cell>C</cell><cell>C</cell><cell>B</cell><cell>P</cell></row>
+          </tabular>
+        </table>
+
+        <p>New totals: P=33, B=30, C=37 (19 + 18). Brian is eliminated.</p>
+
+        <table xml:id="table-elimination-round-3">
+          <title>Round 3 (Brian Eliminated)</title>
+          <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
+            <row bottom="medium"><cell>Votes</cell><cell>15</cell><cell>19</cell><cell>23</cell><cell>10</cell><cell>18</cell><cell>15</cell></row>
+            <row><cell>1st</cell><cell>P</cell><cell>C</cell><cell>P</cell><cell>P</cell><cell>C</cell><cell>C</cell></row>
+            <row><cell>2nd</cell><cell>C</cell><cell>P</cell><cell>C</cell><cell>C</cell><cell>P</cell><cell>P</cell></row>
+          </tabular>
+        </table>
+
+        <p><em>Round 3:</em> Paula vs. Craig. 
+          Craig wins the final matchup against Paula 52 to 48.</p>
+        <p><strong>Winner: Craig.</strong></p>
+      </li>
+
+      <li>
+        <p><strong>Borda Count Method:</strong></p>
+        <p>Using 4 pts for 1st, 3 for 2nd, 2 for 3rd, and 1 for 4th:</p>
+        <ul>
+          <li><p>Paula: <m>33(4) + 19(3) + 33(2) + 15(1) = 270</m></p></li>
+          <li><p>Sylvia: <m>18(4) + 53(3) + 19(2) + 10(1) = 279</m></p></li>
+          <li><p>Craig: <m>19(4) + 18(3) + 25(2) + 38(1) = 218</m></p></li>
+          <li><p>Brian: <m>30(4) + 10(3) + 23(2) + 37(1) = 233</m></p></li>
+        </ul>
+        <p><strong>Winner: Sylvia.</strong></p>
+      </li>
+
+      <li>
+        <p><strong>Pairwise Comparison:</strong></p>
+        <p>
+            For the <term>Pairwise Comparison Method</term>, we compare every possible pair. There are 100 total votes, so 51 are needed to win a matchup:
+            <ul>
+                <li><p>P vs. S: P has 52; S has 48. (P gets 1 pt)</p></li>
+                <li><p>P vs. C: P has 63; C has 37. (P gets 1 pt)</p></li>
+                <li><p>P vs. B: P has 70; B has 30. (P gets 1 pt)</p></li>
+                <li><p>S vs. C: S has 81; C has 19. (S gets 1 pt)</p></li>
+                <li><p>S vs. B: S has 60; B has 40. (S gets 1 pt)</p></li>
+                <li><p>C vs. B: C has 60; B has 40. (C gets 1 pt)</p></li>
+            </ul>
+        </p>
+        <p>
+            <strong>Total Points:</strong> Paula = 3, Sylvia = 2, Craig = 1, Brian = 0.
+            Paula is the winner; no tie-breaker is required.
+        </p>
+      </li>
+    </ol>
+  </p>
+</solution>
+
+</exercise>
 
 
 

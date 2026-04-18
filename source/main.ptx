@@ -44,6 +44,7 @@
         </p>
       </introduction>
       <xi:include href="./notes/voting.ptx" />
+      <xi:include href="./notes/Apportionment.ptx" />
     </chapter>
 
 
