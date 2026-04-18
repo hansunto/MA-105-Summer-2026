@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-fin-ch-ex">
     <title>Chapter Exercise</title>
-    
+    <exercises>
       <exercise>
         <statement>
           <p>
@@ -181,5 +181,5 @@
           </p>
         </solution>
       </exercise>
-
+      </exercises>
 </section>
