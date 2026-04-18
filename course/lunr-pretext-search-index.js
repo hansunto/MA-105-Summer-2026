@@ -673,86 +673,86 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Chapter Exercise",
-  "body": " Chapter Exercise    Suppose a local sales tax rate is and you purchase a car for .  How much sales tax is paid?  How much is the total cost of the car?                Tax = .  Total = .        A bank offers a CD that pays a simple interest rate of . How much must you put in this CD now in order to have for college tuition in five years?       Use .   .      How much money should be deposited today in an account that earns compounded quarterly so that it will accumulate to in ten years?       Use .  .      The cost of washer-dryer is . We can finance this by paying down and per month for 12 months. Determine the finance charge.       Total paid = Down payment + (Monthly payment months) Total = . Finance Charge = .      At the time of her grandson's birth, a grandmother deposits in an account that pays compounded monthly. What will be the value of the account at the child's twenty-first birthday?         .      You deposit in an account that pays interest compounded monthly. Find the future value after one year and the effective annual yield.    FV: ; Yield:    FV = . Yield = or .      Find the value of an annuity of at the end of every 6 months at compounded semiannually for 10 years.    Value: ; Interest:    Use . . Total deposits = . Interest = .      Financial goal of at compounded quarterly for 35 years. Find the periodic deposit.    Deposit:      .      Loan of at for 10 years.  Find monthly payments and total interest.  Compare to a 5-year term.        Payment: ; Interest:  Pay more per month; Save interest.      Use .  10-yr: . Total paid = . Interest = .  5-yr: . Total paid = . Interest = .    "
+  "body": " Chapter Exercise     Suppose a local sales tax rate is and you purchase a car for .  How much sales tax is paid?  How much is the total cost of the car?                Tax = .  Total = .        A bank offers a CD that pays a simple interest rate of . How much must you put in this CD now in order to have for college tuition in five years?       Use .   .      How much money should be deposited today in an account that earns compounded quarterly so that it will accumulate to in ten years?       Use .  .      The cost of washer-dryer is . We can finance this by paying down and per month for 12 months. Determine the finance charge.       Total paid = Down payment + (Monthly payment months) Total = . Finance Charge = .      At the time of her grandson's birth, a grandmother deposits in an account that pays compounded monthly. What will be the value of the account at the child's twenty-first birthday?         .      You deposit in an account that pays interest compounded monthly. Find the future value after one year and the effective annual yield.    FV: ; Yield:    FV = . Yield = or .      Find the value of an annuity of at the end of every 6 months at compounded semiannually for 10 years.    Value: ; Interest:    Use . . Total deposits = . Interest = .      Financial goal of at compounded quarterly for 35 years. Find the periodic deposit.    Deposit:      .      Loan of at for 10 years.  Find monthly payments and total interest.  Compare to a 5-year term.        Payment: ; Interest:  Pay more per month; Save interest.      Use .  10-yr: . Total paid = . Interest = .  5-yr: . Total paid = . Interest = .     "
 },
 {
-  "id": "sec-fin-ch-ex-2",
+  "id": "sec-fin-ch-ex-2-1",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2",
-  "type": "Checkpoint",
-  "number": "37",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-1",
+  "type": "Exercise",
+  "number": "1",
   "title": "",
   "body": "  Suppose a local sales tax rate is and you purchase a car for .  How much sales tax is paid?  How much is the total cost of the car?                Tax = .  Total = .     "
 },
 {
-  "id": "sec-fin-ch-ex-3",
+  "id": "sec-fin-ch-ex-2-2",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-3",
-  "type": "Checkpoint",
-  "number": "38",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-2",
+  "type": "Exercise",
+  "number": "2",
   "title": "",
   "body": "  A bank offers a CD that pays a simple interest rate of . How much must you put in this CD now in order to have for college tuition in five years?       Use .   .   "
 },
 {
-  "id": "sec-fin-ch-ex-4",
+  "id": "sec-fin-ch-ex-2-3",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-4",
-  "type": "Checkpoint",
-  "number": "39",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-3",
+  "type": "Exercise",
+  "number": "3",
   "title": "",
   "body": "  How much money should be deposited today in an account that earns compounded quarterly so that it will accumulate to in ten years?       Use .  .   "
 },
 {
-  "id": "sec-fin-ch-ex-5",
+  "id": "sec-fin-ch-ex-2-4",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-5",
-  "type": "Checkpoint",
-  "number": "40",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-4",
+  "type": "Exercise",
+  "number": "4",
   "title": "",
   "body": "  The cost of washer-dryer is . We can finance this by paying down and per month for 12 months. Determine the finance charge.       Total paid = Down payment + (Monthly payment months) Total = . Finance Charge = .   "
 },
 {
-  "id": "sec-fin-ch-ex-6",
+  "id": "sec-fin-ch-ex-2-5",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-6",
-  "type": "Checkpoint",
-  "number": "41",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-5",
+  "type": "Exercise",
+  "number": "5",
   "title": "",
   "body": "  At the time of her grandson's birth, a grandmother deposits in an account that pays compounded monthly. What will be the value of the account at the child's twenty-first birthday?         .   "
 },
 {
-  "id": "sec-fin-ch-ex-7",
+  "id": "sec-fin-ch-ex-2-6",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-7",
-  "type": "Checkpoint",
-  "number": "42",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-6",
+  "type": "Exercise",
+  "number": "6",
   "title": "",
   "body": "  You deposit in an account that pays interest compounded monthly. Find the future value after one year and the effective annual yield.    FV: ; Yield:    FV = . Yield = or .   "
 },
 {
-  "id": "sec-fin-ch-ex-8",
+  "id": "sec-fin-ch-ex-2-7",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-8",
-  "type": "Checkpoint",
-  "number": "43",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-7",
+  "type": "Exercise",
+  "number": "7",
   "title": "",
   "body": "  Find the value of an annuity of at the end of every 6 months at compounded semiannually for 10 years.    Value: ; Interest:    Use . . Total deposits = . Interest = .   "
 },
 {
-  "id": "sec-fin-ch-ex-9",
+  "id": "sec-fin-ch-ex-2-8",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-9",
-  "type": "Checkpoint",
-  "number": "44",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-8",
+  "type": "Exercise",
+  "number": "8",
   "title": "",
   "body": "  Financial goal of at compounded quarterly for 35 years. Find the periodic deposit.    Deposit:      .   "
 },
 {
-  "id": "sec-fin-ch-ex-10",
+  "id": "sec-fin-ch-ex-2-9",
   "level": "2",
-  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-10",
-  "type": "Checkpoint",
-  "number": "45",
+  "url": "sec-fin-ch-ex.html#sec-fin-ch-ex-2-9",
+  "type": "Exercise",
+  "number": "9",
   "title": "",
   "body": "  Loan of at for 10 years.  Find monthly payments and total interest.  Compare to a 5-year term.        Payment: ; Interest:  Pay more per month; Save interest.      Use .  10-yr: . Total paid = . Interest = .  5-yr: . Total paid = . Interest = .   "
 },
@@ -779,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#exe-student-president",
   "type": "Example",
-  "number": "46",
+  "number": "37",
   "title": "",
   "body": "  Four candidates are running for student body president: Alice (A), Bonnie (B), Carlos (C) and Daniel (D). The students were asked to rank all the candidates in order of preference.   Preference Table For The Election Of Student Body President    Number of Votes  130  120  100  150    First choice  A  D  D  C    Second choice  B  B  B  B    Third choice  C  C  A  A    Fourth choice  D  A  C  D       How many students voted in the election?  How many students selected the candidates in this order : D, B, A, C?  How many students selected Daniel (D) as their first choice for student body president?         To find the total number of students, sum the votes in the top row: students.    Looking at the columns, the order D, B, A, C appears in the third column. There were students who voted in this order.    Daniel (D) is listed as the first choice in the second and third columns. The total number of students is students.      "
 },
@@ -788,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#def-plurality-method",
   "type": "Definition",
-  "number": "48",
+  "number": "39",
   "title": "The Plurality Method.",
   "body": " The Plurality Method   The candidate (or candidates, if there is more than one) with the most first-place votes is the winner.   "
 },
@@ -797,7 +797,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#notes-Voting-2-5",
   "type": "Example",
-  "number": "49",
+  "number": "40",
   "title": "",
   "body": "   shows the preference table for the four candidates running for student body president. Who is declared the winner using the Plurality method?    A received 130 first-place votes, D received first-place votes and C received 150 first-place votes. Thus Daniel is the winner.   "
 },
@@ -815,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#def-plurality-elimination",
   "type": "Definition",
-  "number": "50",
+  "number": "41",
   "title": "The Plurality-with-Elimination Method.",
   "body": " The Plurality-with-Elimination Method   The candidate with the majority (over 50% votes) of first-place votes is the winner. If no candidate receives a majority, eliminate the candidate with the fewest first-place votes. Move the candidates below them up one place and recount. Repeat until a candidate has a majority.   "
 },
@@ -824,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#exe-elimination-example",
   "type": "Example",
-  "number": "51",
+  "number": "42",
   "title": "Elimination Method Example.",
   "body": " Elimination Method Example   Determine the winner for the student president election from , using Plurality-with-Elimination.    Total votes = 500. Majority needed = 251.   Round 1: A=130, D=220, C=150, B=0. No majority. Bonnie (B) is eliminated.   Preference Table: Round 2 (Bonnie Eliminated)    Number of Votes  130  120  100  150    First choice  A  D  D  C    Second choice  C  C  A  A    Third choice  D  A  C  D      Round 2: After shifting votes up, the first-place votes remain: A=130, D=220, C=150. Still no majority. Alice (A) has the fewest (130) and is eliminated.   Preference Table: Final Round (Alice and Bonnie Eliminated)    Number of Votes  130  120  100  150    First choice  C  D  D  C    Second choice  D  C  C  D      Round 3: Alice's 130 votes go to her next preferred candidate, Carlos (C). New totals: Daniel = 220, Carlos = .  Carlos now has 280 votes (a majority). Carlos is the winner.   "
 },
@@ -833,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#def-borda-count",
   "type": "Definition",
-  "number": "54",
+  "number": "45",
   "title": "The Borda Count Method.",
   "body": " The Borda Count Method   Each voter ranks the candidates from the most favorable to the least favorable. Each last-place vote is given 1 point, each next-to-last-place vote is given 2 points, and so on. The points are totaled for each candidate separately. The candidate with the most points is the winner.   "
 },
@@ -842,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#exe-borda-example",
   "type": "Example",
-  "number": "55",
+  "number": "46",
   "title": "Borda Count Example.",
   "body": " Borda Count Example   Using the preference data from , who is declared the winner using the Borda Count Method?    With 4 candidates, 1st place gets 4 pts, 2nd gets 3 pts, 3rd gets 2 pts, and 4th gets 1 pt.   Borda Count Calculation Table    Number of Votes  130  120  100  150    1st choice: 4 pts  A:  D:  D:  C:    2nd choice: 3 pts  B:  B:  B:  B:    3rd choice: 2 pts  C:  C:  A:  A:    4th choice: 1 pt  D:  A:  C:  D:      Alice (A):  pts  Bonnie (B):  pts  Carlos (C):  pts  Daniel (D):  pts   Bonnie is the winner with 1500 points.   "
 },
@@ -851,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#def-pairwise-comparison",
   "type": "Definition",
-  "number": "57",
+  "number": "48",
   "title": "The Pairwise Comparison Method.",
   "body": " The Pairwise Comparison Method   Every candidate is matched on a one-to-one basis with every other candidate. If candidate A beats candidate B in one-to-one competition, then A receives 1 point and B receives 0. If they tie, each receives 0.5 points. The candidate with the most total points is the winner.  In an election with candidates, the number of comparisons, , is calculated as:    "
 },
@@ -860,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#exe-pairwise-example",
   "type": "Example",
-  "number": "58",
+  "number": "49",
   "title": "Pairwise Comparison Example.",
   "body": " Pairwise Comparison Example   Using the same preference , for the four candidates (Alice, Bonnie, Carlos, and Daniel), who is the winner using the Pairwise Comparison Method?    With candidates, there are total comparisons (A vs.B, A vs.C, A vs.D, B vs.C, B vs.D, C vs.D) and determine the winner using the pairwise comparison method.     130 120 100 150  A B B B  B A A A   A vs B     130 120 100 150  A C A C  C A C A   A vs C     130 120 100 150  A D D A  D A A D   A vs D       130 120 100 150  B B B C  C C C B   B vs C     130 120 100 150  B D D B  D B B D   B vs D     130 120 100 150  C D D C  D C C D   C vs D       A vs B: Alice is preferred over Bonnie in 130 ballots. Bonnie is preferred over Alice in ballots. Winner: Bonnie (B gets 1 pt)      A vs C: Alice is preferred over Carlos in ballots. Carlos is preferred over Alice in 150. Winner: Alice (A gets 1 pt)      A vs D: Alice is preferred over Daniel in 130 ballots. Daniel is preferred over Alice in ballots. Winner: Daniel (D gets 1 pt)      B vs C: Bonnie is preferred over Carlos in ballots. Carlos is preferred over Bonnie in 150. Winner: Bonnie (B gets 1 pt)      B vs D: Bonnie is preferred over Daniel in ballots. Daniel is preferred over Bonnie in . Winner: Bonnie (B gets 1 pt)      C vs D: Carlos is preferred over Daniel in ballots. Daniel is preferred over Carlos in . Winner: Carlos (C gets 1 pt)      Final Point Totals:   Bonnie (B): 3 points  Alice (A): 1 point  Daniel (D): 1 point  Carlos (C): 1 point    Bonnie is the winner using Pairwise Comparison.   "
 },
@@ -878,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#ex-condorcet-winner",
   "type": "Example",
-  "number": "59",
+  "number": "50",
   "title": "Condorcet Winner.",
   "body": " Condorcet Winner   Is there a Condorcet winner in the following election?   Preference Table for Condorcet Example    Number of Votes  30  30  30  20    First choice  B  B  A  A    Second choice  A  A  C  D    Third choice  C  D  D  C    Fourth choice  D  C  B  B       To find a Condorcet winner, we must see if one candidate wins every head-to-head matchup. Let's check candidate B and candidate A :     B vs A: B is ranked higher than A in ballots. A is ranked higher than B in ballots. Winner: B .     B vs C: B is ranked higher than C in ballots (every ballot). Winner: B .     B vs D: B is ranked higher than D in ballots (every ballot). Winner: B .    Since B beats every other candidate in a one-on-one comparison, B is the Condorcet winner .   "
 },
@@ -905,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#ex-condorcet-paradox",
   "type": "Example",
-  "number": "61",
+  "number": "52",
   "title": "Condorcet Paradox.",
   "body": " Condorcet Paradox   Who would win this election through the pairwise comparison method?   Preference Table: Three-Candidate Election    Number of Votes  8  9  10    First choice  C  B  A    Second choice  A  C  B    Third choice  B  A  C       We perform the three possible head-to-head comparisons:     A vs B: A is preferred on 8 (col 1) + 10 (col 3) = 18 ballots. B is preferred on 9 (col 2) ballots. Winner: A (A gets 1 pt).     B vs C: B is preferred on 9 (col 2) + 10 (col 3) = 19 ballots. C is preferred on 8 (col 1) ballots. Winner: B (B gets 1 pt).     C vs A: C is preferred on 8 (col 1) + 9 (col 2) = 17 ballots. A is preferred on 10 (col 3) ballots. Winner: C (C gets 1 pt).    Each candidate (A, B, and C) has exactly 1 point. This is a Condorcet Paradox because there is a \"rock-paper-scissors\" loop (A beats B, B beats C, and C beats A), resulting in a three-way tie.   "
 },
@@ -914,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#ex-mayor-election",
   "type": "Checkpoint",
-  "number": "63",
+  "number": "54",
   "title": "Mayor of a Small Town.",
   "body": " Mayor of a Small Town   Three candidates A, B, and C are running for mayor of a small town. The results of the election are shown in the following preference table.   Mayor Election Preference Table    Number of Votes  1200  900  900  600    First choice  A  C  B  B    Second choice  B  A  C  A    Third choice  C  B  A  C       Determine the winner using the Plurality method.  Determine the winner using the Borda count method.  Determine the winner using the Plurality-with-elimination method.  Is there a Condorcet Winner?          Plurality: A = 1200, B = , C = 900. Winner: B .     Borda Count (3-2-1):   A:  B:  C:   Winner: B .     Plurality-with-Elimination: Total votes = 3600; Majority = 1801. Round 1: A=1200, B=1500, C=900. No majority. Eliminate C. C's 900 votes go to A (second choice). Final: A = , B = 1500. Winner: A .     Condorcet Winner Check:   A vs B: A is preferred on . B on 1500. (A wins)  A vs C: A is preferred on . C on . (Tie)  Since A does not win all matches, No Condorcet Winner exists .          Plurality Method  We count only the first-place votes for each candidate:   A: 1200 votes  B:  votes  C: 900 votes   Winner: B (1500 votes).    Borda Count Method (3-2-1 Points)   Borda Count Point Distribution    Candidate  1st (3 pts)  2nd (2 pts)  3rd (1 pt)  Total Points    A        B        C         Winner: B (7800 points).    Plurality-with-Elimination  Total Votes: 3600. Majority needed: 1801.  Round 1: A=1200, B=1500, C=900. No candidate has 1801. Eliminate C.   Final Round (C Eliminated)   Votes 1200 900 900 600  1st A A B B  2nd B B A A    New totals: A = . B = . Winner: A (2100 votes).      "
 },
@@ -923,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "notes-Voting.html#math-club-election",
   "type": "Checkpoint",
-  "number": "67",
+  "number": "58",
   "title": "Math Club Presidential Election.",
   "body": " Math Club Presidential Election   Four candidates are running for president of the Math Club: Paula (P), Sylvia (S), Craig (C), and Brian (B). The results of the election are shown in the following preference table:   Election Preference Schedule    Number of Votes  15  19  23  10  18  15    First choice  B  C  P  P  S  B    Second choice  S  P  S  B  C  S    Third choice  P  S  B  C  P  C    Fourth choice  C  B  C  S  B  P       How many students voted in the election?  How many students voted Brian as their first choice?  Who would win the presidency using the Plurality method?  Is there a Majority Winner?  Who would win the presidency using the Plurality with Elimination method?  Who would win the presidency using the Borda count method?   Who would win the presidency using the pairwise comparison method? If a tie, use the Plurality method between the winners to determine the tie-breaker.          100 students  30 students  Paula (33 votes)  No (Majority requires 51 votes)  Craig  Sylvia (279 points)  Paula (3 points)         Total Votes: 100.  Brian 1st choice: 30.  Plurality Winner: Paula (33).  Majority: No (Requires 51).   Plurality with Elimination:  Round 1: Sylvia has the fewest 1st-place votes (18) and is eliminated.   Round 2 (Sylvia Eliminated)   Votes 15 19 23 10 18 15  1st B C P P C B  2nd P P B B P C  3rd C B C C B P    New totals: P=33, B=30, C=37 (19 + 18). Brian is eliminated.   Round 3 (Brian Eliminated)   Votes 15 19 23 10 18 15  1st P C P P C C  2nd C P C C P P    Round 3: Paula vs. Craig. Craig wins the final matchup against Paula 52 to 48.  Winner: Craig.    Borda Count Method:  Using 4 pts for 1st, 3 for 2nd, 2 for 3rd, and 1 for 4th:   Paula:  Sylvia:  Craig:  Brian:   Winner: Sylvia.    Pairwise Comparison:  For the Pairwise Comparison Method , we compare every possible pair. There are 100 total votes, so 51 are needed to win a matchup:  P vs. S: P has 52; S has 48. (P gets 1 pt)  P vs. C: P has 63; C has 37. (P gets 1 pt)  P vs. B: P has 70; B has 30. (P gets 1 pt)  S vs. C: S has 81; C has 19. (S gets 1 pt)  S vs. B: S has 60; B has 40. (S gets 1 pt)  C vs. B: C has 60; B has 40. (C gets 1 pt)     Total Points: Paula = 3, Sylvia = 2, Craig = 1, Brian = 0. Paula is the winner; no tie-breaker is required.      "
 },
@@ -950,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#def-standard-divisor",
   "type": "Definition",
-  "number": "71",
+  "number": "62",
   "title": "The Standard Divisor.",
   "body": " The Standard Divisor   The standard divisor is found by dividing the total population under consideration by the number of items to be allocated.    "
 },
@@ -959,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#def-standard-quota",
   "type": "Definition",
-  "number": "72",
+  "number": "63",
   "title": "The Standard Quota.",
   "body": " The Standard Quota   The standard quota for a particular group is found by dividing that group's population by the standard divisor.    "
 },
@@ -968,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#section-apportionment-5",
   "type": "Example",
-  "number": "73",
+  "number": "64",
   "title": "",
   "body": "  Palm Springs is composed of four states: A, B, C, and D. According to the country's constitution, the congress will have 30 seats, divided among the four states according to their respective populations. Find the standard quotas for states A, B, C, and D and complete the table below.   Population of Palm Springs by State    State  A  B  C  D  Total    Population (in thousands)  275  383  465  767  1890    Standard Quota            First, we find the Standard Divisor ( ):   Now, divide each state's population by the divisor to find the Standard Quota ( ):  State A:  State B:  State C:  State D:        State  A  B  C  D  Total    Population (in thousands)  275  383  465  767  1890    Standard Quota  4.365  6.079  7.381  12.175       "
 },
@@ -995,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#method-hamilton",
   "type": "Algorithm",
-  "number": "76",
+  "number": "67",
   "title": "Hamilton’s Method.",
   "body": " Hamilton's Method     Calculate each group's standard quota.  Find the lower quota for each group.  Give surplus items, one at a time, to groups with the largest decimal parts until no surplus remains.     "
 },
@@ -1004,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#section-apportionment-8",
   "type": "Example",
-  "number": "77",
+  "number": "68",
   "title": "",
   "body": "  From , use Hamilton's method to apportion the 30 congressmen for Palm Springs.   Hamilton's Method Table    State A B C D Total   Population 275 383 465 767 1890  Standard Quota 4.365 6.079 7.381 12.175 30.00  Lower Quota 4 6 7 12 29  Surplus +0 +0 +1 +0 1  Apportionment 4 6 8 12 30    1. The Standard Divisor is .  2. Lower quotas sum to 29, leaving 1 surplus seat.  3. State C has the largest decimal part (.381), so it receives the surplus seat.    Following the steps of Hamilton's Method :   The sum of the Lower Quotas is . Since we must allocate 30 seats, there is surplus seat.    We look at the decimal parts of the Standard Quotas:  A:  B:  C:  D:      State C has the largest decimal part ( ), so it receives the 1 surplus seat.    Final counts: A=4, B=6, C=8, D=12.      "
 },
@@ -1022,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#method-jefferson",
   "type": "Algorithm",
-  "number": "79",
+  "number": "70",
   "title": "Jefferson’s Method.",
   "body": " Jefferson's Method   Find a modified divisor such that when each group's modified quota is rounded down ( modified lower quota ), the sum equals the number of items to be apportioned. Apportion to each group its modified lower quota.   Calculate the Standard Divisor ( ).  Calculate Standard Quotas and round down to find Lower Quotas .  If the sum of Lower Quotas is less than the total seats, choose a Modified Divisor ( ) that is smaller than the .  Recalculate quotas using and round down until the sum exactly matches the total seats.    "
 },
@@ -1031,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#exe-palm-springs-jefferson",
   "type": "Example",
-  "number": "80",
+  "number": "71",
   "title": "",
   "body": "  From , apportion 30 seats to Palm Springs using Jefferson's Method.    The standard divisor ( ) produced a sum of 29. For Jefferson's method, we must decrease the divisor to increase the quotas. Using a Modified Divisor of :  A:  B:  C:  D:  Sum: . State D receives the extra seat.   Jefferson's Method: Palm Springs    State A B C D Total   Population 275 383 465 767 1890  Standard Quota (SD=63) 4.365 6.079 7.381 12.175 30  Lower Quota 4 6 7 12 29  Modified Quota (MD=61) 4.508 6.279 7.623 12.574 30.98  Modified LQ (Apportionment) 4 6 7 13 30     "
 },
@@ -1040,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "section-apportionment.html#exe-bus-apportionment",
   "type": "Checkpoint",
-  "number": "82",
+  "number": "73",
   "title": "",
   "body": "  Apportion 11 buses to the three towns using Jefferson's method.   Bus Apportionment Table    Town Westboro Shrewbury Worcester Total   Population 89 120 168 377       Final Apportionment            Step 1: Standard Divisor and Initial Quotas First, find the Standard Divisor: .   Trial 1: Using Standard Divisor (34.27)    Town Westboro Shrewbury Worcester Total   Population 89 120 168 377  Standard Quota 2.59 3.50 4.90 10.99  Lower Quota 2 3 4 9    The sum (9) is too low. We need 11 buses. We must decrease the divisor.    Step 2: First Modified Divisor Trial (MD = 31) Let's try a smaller divisor, .   Trial 2: Modified Divisor (31)    Town Westboro Shrewbury Worcester Total   Modified Quota 2.87 3.87 5.41 12.15  Lower Quota 2 3 5 10    The sum (10) is still too low. We must decrease the divisor further.    Step 3: Successful Modified Divisor (MD = 30) Trying .   Final Apportionment: Modified Divisor (30)    Town Westboro Shrewbury Worcester Total   Modified Quota 2.96 4.00 5.60 12.56  Modified LQ 2 4 5 11    The sum is exactly 11. Final Apportionment: Westboro: 2, Shrewbury: 4, Worcester: 5.   Bus Apportionment Work Table    Town Westboro Shrewbury Worcester Total   Population 89 120 168 377  Standard Quota 2.59 3.50 4.90 10.99  Lower Quota 2 3 4 9  Modified Quota (MD=31) 2.87 3.87 5.41 12.15  Modified LQ 2 3 5 10  Modified Quota (MD=30) 2.96 4.00 5.60 12.56  Final Apportionment 2 4 5 11     "
 },
