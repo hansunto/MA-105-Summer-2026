@@ -33,24 +33,6 @@
       <exercise>
         <statement>
           <p>
-            Suppose that you drive 15,000 miles per year and gas averages <m>\$3.99</m> per gallon. What will you save in annual fuel expenses by owning a hybrid car averaging 45 miles per gallon rather than an SUV averaging 28 miles per gallon?
-          </p>
-        </statement>
-        <answer>
-          <p><m>\$806.94</m></p>
-        </answer>
-        <solution>
-          <p>
-            SUV cost: <m>(15000 / 28) \times 3.99 \approx \$2,137.50</m>.
-            Hybrid cost: <m>(15000 / 45) \times 3.99 = \$1,330.00</m>.
-            Savings: <m>2137.50 - 1330.00 = 807.50</m>. (Note: exact rounding may vary depending on steps).
-          </p>
-        </solution>
-      </exercise>
-
-      <exercise>
-        <statement>
-          <p>
             A bank offers a CD that pays a simple interest rate of <m>5.25\%</m>. How much must you put in this CD now in order to have <m>\$5,000</m> for college tuition in five years?
           </p>
         </statement>
@@ -176,24 +158,6 @@
       <exercise>
         <statement>
           <p>
-            Credit card monthly rate <m>1.95\%</m>. Unpaid balance <m>\$2,675</m>. Payment of <m>\$350</m> on Sept 7. Find interest due and total balance using unpaid balance method.
-          </p>
-        </statement>
-        <answer>
-          <p>Interest: <m>\$45.34</m>; Total: <m>\$2,370.34</m></p>
-        </answer>
-        <solution>
-          <p>
-            Remaining balance after payment = <m>2675 - 350 = 2325</m>.
-            Interest = <m>2325 \times 0.0195 = 45.3375 \approx 45.34</m>.
-            Total balance = <m>2325 + 45.34 = 2370.34</m>.
-          </p>
-        </solution>
-      </exercise>
-
-      <exercise>
-        <statement>
-          <p>
             Loan of <m>\$36,000</m> at <m>8\%</m> for 10 years.
             <ol marker="a">
               <li><p>Find monthly payments and total interest.</p></li>
@@ -211,9 +175,9 @@
         </answer>
         <solution>
           <p>
-            Use <m>PMT = \frac{Pr/n}{1-(1+r/n)^{-nt}}</m>.
-            10-yr: <m>PMT \approx 436.78</m>. Total paid = <m>52413.60</m>. Interest = <m>16413.60</m>.
-            5-yr: <m>PMT \approx 729.88</m>. Total paid = <m>43792.80</m>. Interest = <m>7792.80</m>.
+            Use <m>PMT = \frac{Pr/n}{1-(1+r/n)^{-nt}}</m>.</p>
+            <p> 10-yr: <m>PMT \approx 436.78</m>. Total paid = <m>52413.60</m>. Interest = <m>16413.60</m>. </p>
+            <p> 5-yr: <m>PMT \approx 729.88</m>. Total paid = <m>43792.80</m>. Interest = <m>7792.80</m>.
           </p>
         </solution>
       </exercise>

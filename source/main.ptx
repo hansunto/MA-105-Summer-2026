@@ -25,7 +25,7 @@
       <title>Personal Finance</title>
       <introduction>
         <p>
-          This chapter contains notes on personal finance topics. It is intended to be a resource for students who want to learn more about financial concepts and how they apply to their lives.
+          In an era of digital banking and shifting economies, understanding your personal finances is a superpower. This resource moves beyond the classroom to show how smart financial habits today can create long-term stability and open doors for the opportunities you care about most.
         </p>
       </introduction>
       <xi:include href="./notes/simpleinterest.ptx" />
@@ -40,8 +40,7 @@
       <title>Voting and Apportionment</title>
       <introduction>
         <p>
-          This chapter contains notes on voting and apportionment topics. 
-          It is intended to be a resource for students who want to learn more about voting and apportionment concepts and how they apply to their lives.
+        Beyond just marking a ballot, these concepts shape how our voices are heard and how resources are distributed. This chapter breaks down the mechanics behind decision-making, offering clear examples of how mathematical fairness directly impacts your community and representation.
         </p>
       </introduction>
       <xi:include href="./notes/voting.ptx" />
