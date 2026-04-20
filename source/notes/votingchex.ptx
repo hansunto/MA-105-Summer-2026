@@ -445,15 +445,357 @@
   </solution>
 </exercise>
 
-
 <exercise>
-<p>
+  <statement>
+    <p>
+      A small city has 30 police officers to be apportioned among 4 precincts based on the population of each precinct. The populations are given in the following table.
+    </p>
+    <tabular bottom="minor" top="minor">
+      <row header="yes">
+        <cell><alert>Precinct</alert></cell>
+        <cell>1</cell>
+        <cell>2</cell>
+        <cell>3</cell>
+        <cell>4</cell>
+        <cell>Total</cell>
+      </row>
+      <row>
+        <cell>Population</cell>
+        <cell>3117</cell>
+        <cell>1883</cell>
+        <cell>2776</cell>
+        <cell>3174</cell>
+        <cell>10,950</cell>
+      </row>
+    </tabular>
+    <p>
+      <ol>
+        <li><p>Find the standard divisor.</p></li>
+        <li><p>Find the standard quota for each precinct.</p></li>
+        <li><p>Find the modified quota for the fourth precinct using Jefferson's method with a modified divisor of 350.</p></li>
+        <li><p>Find the apportionment for the second precinct using Adams's method with a modified divisor of 380.</p></li>
+      </ol>
+    </p>
+  </statement>
 
+  <solution>
+    <p>
+      <strong>Part (a) &amp; (b): Standard Divisor and Standard Quotas</strong>
+    </p>
+    <p>
+      The Standard Divisor (<m>SD</m>) is <m>10,950 / 30 = 365</m>.
+    </p>
+    <table xml:id="table-police-hamilton">
+      <title>Hamilton's Method (Standard Quotas)</title>
+      <tabular bottom="minor" top="minor">
+        <row header="yes">
+          <cell>Category</cell>
+          <cell>Precinct 1</cell>
+          <cell>Precinct 2</cell>
+          <cell>Precinct 3</cell>
+          <cell>Precinct 4</cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Population</cell>
+          <cell>3117</cell>
+          <cell>1883</cell>
+          <cell>2776</cell>
+          <cell>3174</cell>
+          <cell>10,950</cell>
+        </row>
+        <row>
+          <cell>Std. Quota</cell>
+          <cell>8.54</cell>
+          <cell>5.16</cell>
+          <cell>7.61</cell>
+          <cell>8.70</cell>
+          <cell>30.00</cell>
+        </row>
+        <row>
+          <cell>Lower Quota</cell>
+          <cell>8</cell>
+          <cell>5</cell>
+          <cell>7</cell>
+          <cell>8</cell>
+          <cell>28</cell>
+        </row>
+        <row>
+          <cell>Fraction</cell>
+          <cell>0.54</cell>
+          <cell>0.16</cell>
+          <cell>0.61</cell>
+          <cell>0.70</cell>
+          <cell>-</cell>
+        </row>
+        <row>
+          <cell>Surplus</cell>
+          <cell></cell>
+          <cell></cell>
+          <cell>+1</cell>
+          <cell>+1</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>Hamilton Final</cell>
+          <cell>8</cell>
+          <cell>5</cell>
+          <cell>8</cell>
+          <cell>9</cell>
+          <cell>30</cell>
+        </row>
+      </tabular>
+    </table>
 
-</p>
+    <p>
+      <strong>Part (c): Jefferson's Method (Modified Divisor <m>d = 350</m>)</strong>
+    </p>
+    <table xml:id="table-police-jefferson">
+      <title>Jefferson's Method Calculation</title>
+      <tabular bottom="minor" top="minor">
+        <row header="yes">
+          <cell>Category</cell>
+          <cell>Precinct 1</cell>
+          <cell>Precinct 2</cell>
+          <cell>Precinct 3</cell>
+          <cell>Precinct 4</cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Mod. Quota</cell>
+          <cell>8.91</cell>
+          <cell>5.38</cell>
+          <cell>7.93</cell>
+          <cell>9.07</cell>
+          <cell>-</cell>
+        </row>
+        <row>
+          <cell>Jefferson Apport.</cell>
+          <cell>8</cell>
+          <cell>5</cell>
+          <cell>7</cell>
+          <cell>9</cell>
+          <cell>29</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>The modified quota for the fourth precinct is <strong>9.07</strong>.</p>
+
+    <p>
+      <strong>Part (d): Adams's Method (Modified Divisor <m>d = 380</m>)</strong>
+    </p>
+    <table xml:id="table-police-adams">
+      <title>Adams's Method Calculation</title>
+      <tabular bottom="minor" top="minor">
+        <row header="yes">
+          <cell>Category</cell>
+          <cell>Precinct 1</cell>
+          <cell>Precinct 2</cell>
+          <cell>Precinct 3</cell>
+          <cell>Precinct 4</cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Mod. Quota</cell>
+          <cell>8.20</cell>
+          <cell>4.96</cell>
+          <cell>7.31</cell>
+          <cell>8.35</cell>
+          <cell>-</cell>
+        </row>
+        <row>
+          <cell>Adams Apport.</cell>
+          <cell>9</cell>
+          <cell>5</cell>
+          <cell>8</cell>
+          <cell>9</cell>
+          <cell>31</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>The apportionment for the second precinct using Adams's method is <strong>5</strong> officers.</p>
+  </solution>
 </exercise>
 
 
+
+<exercise>
+  <statement>
+    <p>
+      A mother has an incentive program to get her five children to read more. She has 30 pieces of candy to divide among her children at the end of the week based on the number of minutes each of them spends reading.
+    </p>
+    <tabular bottom="minor" top="minor">
+      <row header="yes">
+        <cell>Child</cell>
+        <cell>Abby</cell>
+        <cell>Bobby</cell>
+        <cell>Charli</cell>
+        <cell>Dave</cell>
+        <cell>Eddie</cell>
+        <cell>Total</cell>
+      </row>
+      <row>
+        <cell>Reading Times</cell>
+        <cell>138</cell>
+        <cell>142</cell>
+        <cell>188</cell>
+        <cell>218</cell>
+        <cell>64</cell>
+        <cell>750</cell>
+      </row>
+    </tabular>
+    <p>
+      <ol>
+        <li><p>Use Hamilton's method to apportion 30 pieces of candy.</p></li>
+        <li><p> At the last minute, the mother finds another piece of candy and does the apportionment again. Now, she has 31 pieces of candy to divide among her children at the end of the week based on the number of minutes each of them spends reading. Use Hamilton's method to apportion the candy among the children.</p></li>
+        <li><p>Look at your answers for parts (a) and (b). What changed and why? Why is the change interesting?This is an example of which paradox?</p></li>
+      </ol>
+    </p>
+  </statement>
+
+  <solution>
+    <p><strong>Part (a): 30 Pieces (Standard Divisor = 25)</strong></p>
+    <table xml:id="table-candy-30">
+      <title>Apportionment for 30 Pieces </title>
+      <tabular bottom="minor" top="minor">
+        <row header="yes">
+          <cell>Category</cell>
+          <cell>Abby</cell>
+          <cell>Bobby</cell>
+          <cell>Charli</cell>
+          <cell>Dave</cell>
+          <cell>Eddie</cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Reading Min</cell>
+          <cell>138</cell>
+          <cell>142</cell>
+          <cell>188</cell>
+          <cell>218</cell>
+          <cell>64</cell>
+          <cell>750</cell>
+        </row>
+        <row>
+          <cell>Std. Quota</cell>
+          <cell>5.52</cell>
+          <cell>5.68</cell>
+          <cell>7.52</cell>
+          <cell>8.72</cell>
+          <cell>2.56</cell>
+          <cell>30.00</cell>
+        </row>
+        <row>
+          <cell>Lower Quota</cell>
+          <cell>5</cell>
+          <cell>5</cell>
+          <cell>7</cell>
+          <cell>8</cell>
+          <cell>2</cell>
+          <cell>27</cell>
+        </row>
+        <row>
+          <cell>Fraction</cell>
+          <cell>0.52</cell>
+          <cell>0.68</cell>
+          <cell>0.52</cell>
+          <cell>0.72</cell>
+          <cell>0.56</cell>
+          <cell>-</cell>
+        </row>
+        <row>
+          <cell>Surplus</cell>
+          <cell>+1</cell>
+          <cell>+1</cell>
+          <cell></cell>
+          <cell>+1</cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>Final Seats</cell>
+          <cell>6</cell>
+          <cell>6</cell>
+          <cell>7</cell>
+          <cell>9</cell>
+          <cell>2</cell>
+          <cell>30</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <p><strong>Part (b): 31 Pieces (Standard Divisor ≈ 24.1935)</strong></p>
+    <table xml:id="table-candy-31">
+      <title>Apportionment for 31 Pieces</title>
+      <tabular bottom="minor" top="minor">
+        <row header="yes">
+          <cell>Category</cell>
+          <cell>Abby</cell>
+          <cell>Bobby</cell>
+          <cell>Charli</cell>
+          <cell>Dave</cell>
+          <cell>Eddie</cell>
+          <cell>Total</cell>
+        </row>
+        <row>
+          <cell>Reading Min</cell>
+          <cell>138</cell>
+          <cell>142</cell>
+          <cell>188</cell>
+          <cell>218</cell>
+          <cell>64</cell>
+          <cell>750</cell>
+        </row>
+        <row>
+          <cell>Std. Quota</cell>
+          <cell>5.704</cell>
+          <cell>5.870</cell>
+          <cell>7.771</cell>
+          <cell>9.011</cell>
+          <cell>2.645</cell>
+          <cell>31.00</cell>
+        </row>
+        <row>
+          <cell>Lower Quota</cell>
+          <cell>5</cell>
+          <cell>5</cell>
+          <cell>7</cell>
+          <cell>9</cell>
+          <cell>2</cell>
+          <cell>28</cell>
+        </row>
+        <row>
+          <cell>Fraction</cell>
+          <cell>0.704</cell>
+          <cell>0.870</cell>
+          <cell>0.771</cell>
+          <cell>0.011</cell>
+          <cell>0.645</cell>
+          <cell>-</cell>
+        </row>
+        <row>
+          <cell>Surplus</cell>
+          <cell>+1</cell>
+          <cell>+1</cell>
+          <cell>+1</cell>
+          <cell>+1</cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>Final Seats</cell>
+          <cell>6</cell>
+          <cell>6</cell>
+          <cell>8</cell>
+          <cell>9</cell>
+          <cell>2</cell>
+          <cell>31</cell>
+        </row>
+      </tabular>
+    </table>
+    <p><strong>Part (c): Increasing the total number of items from 30 to 31 creates the <term>Alabama Paradox</term>. In this specific case, Eddie loses a candy even though the total amount of candy increased. </strong></p>
+  </solution>
+</exercise>
 
 </exercises>
 </section>
