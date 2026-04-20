@@ -960,10 +960,266 @@
       </solution>
 </exercise>
 
+<example xml:id="100seats">
+  <title>Hamilton's Method Apportionment of 100 seats </title>
+<p> Suppose there were four states, A, B, C ,and D with populations as shown in the table below. Suppose these four states decide to create a legislature with 100 seats. Apply Hamilton's method to determine the apportionment. </p>
+  <table>
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
+    <row header="yes">
+      <cell>Category</cell>
+      <cell>State A</cell>
+      <cell>State B</cell>
+      <cell>State C</cell>
+      <cell>State D</cell>
+      <cell>Total</cell>
+    </row>
+    <row>
+      <cell>Population</cell>
+      <cell>936</cell>
+      <cell>2,726</cell>
+      <cell>2,603</cell>
+      <cell>3,735</cell>
+      <cell>10,000</cell>
+    </row>
+    <row>
+      <cell>Standard Quota</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Lower Quota</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Surplus</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Apportioned Seats</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell>100</cell>
+    </row>
+  </tabular>
+</table>
+<solution>
+  <p>
+  The following table demonstrates the apportionment using Hamilton's Method with a standard divisor of <m>SD=10,000/100=100</m>.
+</p>
+<table xml:id="table-hamilton-alabama1">
+  <title>Hamilton's Method Apportionment</title>
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
+    <row header="yes">
+      <cell>Category</cell>
+      <cell>State A</cell>
+      <cell>State B</cell>
+      <cell>State C</cell>
+      <cell>State D</cell>
+      <cell>Total</cell>
+    </row>
+    <row>
+      <cell>Population</cell>
+      <cell>936</cell>
+      <cell>2,726</cell>
+      <cell>2,603</cell>
+      <cell>3,735</cell>
+      <cell>10,000</cell>
+    </row>
+    <row>
+      <cell>Standard Quota</cell>
+      <cell>9.36</cell>
+      <cell>27.26</cell>
+      <cell>26.03</cell>
+      <cell>37.35</cell>
+      <cell>100.00</cell>
+    </row>
+    <row>
+      <cell>Lower Quota</cell>
+      <cell>9</cell>
+      <cell>27</cell>
+      <cell>26</cell>
+      <cell>37</cell>
+      <cell>99</cell>
+    </row>
+    <row>
+      <cell>Fractional Part</cell>
+      <cell>0.36</cell>
+      <cell>0.26</cell>
+      <cell>0.03</cell>
+      <cell>0.35</cell>
+      <cell>-</cell>
+    </row>
+    <row>
+      <cell>Surplus</cell>
+      <cell>+1</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Final Seats</cell>
+      <cell>10</cell>
+      <cell>27</cell>
+      <cell>26</cell>
+      <cell>37</cell>
+      <cell>100</cell>
+    </row>
+  </tabular>
+</table>
+</solution>
+</example>
 
+<theorem xml:id="theorem-alabama-paradox">
+  <title>The Alabama Paradox</title>
+  <statement>
+    <p>
+      In a fair apportionment system, adding extra seats must not result in fewer seats for any state. 
+      The <term>Alabama Paradox</term> occurs when the total number of available seats increases, 
+      yet one state (or more) loses seats as a result. This paradox can occur when using 
+      <init>Hamilton's method</init>.
+    </p>
+  </statement>
+</theorem>
 
+<example xml:id="101seats">
+<title>Hamilton's Method Apportionment of 101 seats </title>
+<p> Using Hamilton's method, recompute the apportionment from <xref ref="100seats"/>, if there are 101 seats instead of 100. Does the Alabama paradox occur? </p>
+  <table>
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
+    <row header="yes">
+      <cell>States</cell>
+      <cell>State A</cell>
+      <cell>State B</cell>
+      <cell>State C</cell>
+      <cell>State D</cell>
+      <cell>Total</cell>
+    </row>
+    <row>
+      <cell>Population</cell>
+      <cell>936</cell>
+      <cell>2,726</cell>
+      <cell>2,603</cell>
+      <cell>3,735</cell>
+      <cell>10,000</cell>
+    </row>
+    <row>
+      <cell>Standard Quota</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Lower Quota</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Surplus</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Apportioned Seats</cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell></cell>
+      <cell>101</cell>
+    </row>
+  </tabular>
+</table>
+<solution>
+  <p>
+  The table below shows the Hamilton's Method apportionment with <m>101</m> seats. </p>
+  <p> Note that State A loses a seat compared to the 100-seat scenario, demonstrating the Alabama Paradox.
+</p>
 
+<table xml:id="table-hamilton-101">
+  <title>Hamilton's Method (101 Seats)</title>
+  <tabular bottom="minor" top="minor" left="minor" right="minor">
+    <row header="yes">
+      <cell>States</cell>
+      <cell>State A</cell>
+      <cell>State B</cell>
+      <cell>State C</cell>
+      <cell>State D</cell>
+      <cell>Total</cell>
+    </row>
+    <row>
+      <cell>Population</cell>
+      <cell>936</cell>
+      <cell>2,726</cell>
+      <cell>2,603</cell>
+      <cell>3,735</cell>
+      <cell>10,000</cell>
+    </row>
+    <row>
+      <cell>Standard Quota</cell>
+      <cell>9.4536</cell>
+      <cell>27.5326</cell>
+      <cell>26.2903</cell>
+      <cell>37.7235</cell>
+      <cell>101.0000</cell>
+    </row>
+    <row>
+      <cell>Lower Quota</cell>
+      <cell>9</cell>
+      <cell>27</cell>
+      <cell>26</cell>
+      <cell>37</cell>
+      <cell>99</cell>
+    </row>
+    <row>
+      <cell>Fractional Part</cell>
+      <cell>0.4536</cell>
+      <cell>0.5326</cell>
+      <cell>0.2903</cell>
+      <cell>0.7235</cell>
+      <cell>-</cell>
+    </row>
+    <row>
+      <cell>Surplus</cell>
+      <cell></cell>
+      <cell>+1</cell>
+      <cell></cell>
+      <cell>+1</cell>
+      <cell></cell>
+    </row>
+    <row>
+      <cell>Final Seats</cell>
+      <cell>9</cell>
+      <cell>28</cell>
+      <cell>26</cell>
+      <cell>38</cell>
+      <cell>101</cell>
+    </row>
+  </tabular>
+</table>
 
+  </solution>
+</example>
 
 
 
