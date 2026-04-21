@@ -142,7 +142,7 @@
 
   <exercises xml:id="practice-simple-interest">
   <title>Exercises for Practice</title>
-<exercise xml:id="exercise-S1">
+<exercise>
       <title>Calculating a simple interest rate for a T-bill</title> 
       <statement>
         <p>
@@ -164,7 +164,7 @@
       </answer>   
 </exercise>
 
-<exercise xml:id="exercise-S2">
+<exercise>
       <title>Calculating a present value for a CD</title>
       <statement>
         <p>
@@ -186,7 +186,7 @@
       <!-- </knowl> -->
 </exercise>
 
-<exercise xml:id="exercise-S3">
+<exercise>
       <title>Calculating a future value for a savings account</title>
       <statement>
         <p>
@@ -204,8 +204,8 @@
       <!-- </knowl>  -->
 </exercise>
 
-<exercise xml:id="exercise-S4">
-      <title>Determining whether a statement makes sense or not, explain your reasoning.</title>  
+<exercise>
+      <title> Determining whether a statement makes sense or not, explain your reasoning.</title>  
       <statement>
         <ol>
       <li>
@@ -213,8 +213,7 @@
           After depositing $1,500 in an account at a rate of 4%, my balance at the end of the first year was <m>\$(1500)(0.04).</m>
         </p>
         <answer>
-          <p>
-            This statement does not make sense because the balance at the end of the first year should be the future value, which is the sum of the principal and interest. The correct balance should be <m>\$1500 + (1500)(0.04) = \$1560.</m>
+          <p> This statement does not make sense because the balance at the end of the first year should be the future value, which is the sum of the principal and interest. The correct balance should be <m>\$1500 + (1500)(0.04) = \$1560.</m>
           </p>
         </answer>
       </li>
@@ -224,8 +223,7 @@
           I planned to save $5,000 in four years, computed the present value to be $3,846.153, so I round the principal to $3,846.15.
         </p>
         <answer>
-          <p>
-            This makes sense. In fact, rounding down is the safer move here. 
+          <p> This makes sense. In fact, rounding down is the safer move here. 
             Rounding Down ($3,846.15): By starting with slightly less than the exact "perfect" number, you technically might end up a fraction of a cent short of your $5,000 goal after four years. 
             However, in practice, this is unlikely to be a significant issue, and it provides a small buffer to ensure you meet your target.
           </p>
@@ -234,6 +232,8 @@
     </ol>
       </statement>
 </exercise>
+
+
 </exercises>
 
 </section>

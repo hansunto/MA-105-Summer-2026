@@ -960,7 +960,7 @@
       </solution>
 </exercise>
 
-<example xml:id="100seats">
+<example xml:id="ex-100-seats">
   <title>Hamilton's Method Apportionment of 100 seats </title>
 <p> Suppose there were four states, A, B, C ,and D with populations as shown in the table below. Suppose these four states decide to create a legislature with 100 seats. Apply Hamilton's method to determine the apportionment. </p>
   <table>
@@ -1095,9 +1095,9 @@
   </statement>
 </theorem>
 
-<example xml:id="101seats">
+<example xml:id="ex-101-seats">
 <title>Hamilton's Method Apportionment of 101 seats </title>
-<p> Using Hamilton's method, recompute the apportionment from <xref ref="100seats"/>, if there are 101 seats instead of 100. Does the Alabama paradox occur? </p>
+<p> Using Hamilton's method, recompute the apportionment from <xref ref="ex-100-seats"/>, if there are 101 seats instead of 100. Does the Alabama paradox occur? </p>
   <table>
   <tabular bottom="minor" top="minor" left="minor" right="minor">
     <row header="yes">

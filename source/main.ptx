@@ -48,6 +48,15 @@
       <xi:include href="./notes/votingchex.ptx" />
     </chapter>
 
+    <chapter xml:id="ch-Probability">
+      <title>Probability </title>
+      <introduction>
+        <p>
+        Beyond just marking a ballot, these concepts shape how our voices are heard and how resources are distributed. This chapter breaks down the mechanics behind decision-making, offering clear examples of how mathematical fairness directly impacts your community and representation.
+        </p>
+      </introduction>
+    
+    </chapter>
 
     <chapter xml:id="course-notes">
       <title>Course Notes</title>

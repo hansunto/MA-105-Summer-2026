@@ -127,7 +127,7 @@
         </p>
       </assemblage>
 
-      <definition xml:id="def-plurality-elimination">
+      <definition xml:id="def-elimination">
         <title>The Plurality-with-Elimination Method</title>
         <statement>
           <p>
@@ -151,7 +151,7 @@
             <alert>Round 1:</alert> A=130, D=220, C=150, B=0. 
             No majority. Bonnie (B) is eliminated.
           </p>
-          <table xml:id="tab-plurality-elimination-round2">
+          <table xml:id="tab-plurality-elimination-r2">
   <title>Preference Table: Round 2 (Bonnie Eliminated)</title>
   <tabular halign="center" top="minor" left="minor" bottom="minor" right="minor">
     <row bottom="minor">

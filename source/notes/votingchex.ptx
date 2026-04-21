@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-voting-ch-ex">
  <title>Chapter Exercise</title>
+ 
 <exercises>
+
 <exercise>
   <statement>
     <p>
@@ -616,8 +618,6 @@
     <p>The apportionment for the second precinct using Adams's method is <strong>5</strong> officers.</p>
   </solution>
 </exercise>
-
-
 
 <exercise>
   <statement>
