@@ -7,13 +7,13 @@
 In 1626, Peter Minuit convinced the wrappinger Indians to sell him Manhattan Island for $24. If the native American had <alert>put the $24 into a bank account at a 5% interest rate</alert> compound annually, by the year 2021 there would be well over $5.6 billion in the account!
 </p>
 <p>
-So, how did the present value of Manhattan in 1626 attain a future value of over $5.6 billion in 2021, 395 years at 5%simple interest is
+So, how did the present value of Manhattan in 1626 attain a future value of over $5.6 billion in 2021, 395 years at 5% simple interest is
       <md>
         A=P(1+rt)=24(1+(0.05)(395))=498.00
       </md>
       or $498.00 compared to over $5.6 billion.
-    </p>
-      <assemblage xml:id="aside-compound-interest">
+</p>
+  <assemblage xml:id="aside-compound-interest">
         <title>Compound Interest vs. Simple Interest</title>
         <p>
           The difference between simple interest and compound interest is that simple interest is calculated only on the original principal, while compound interest is calculated on the original principal and any accumulated interest. 
@@ -25,7 +25,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
     <p>
       For example, suppose you deposit $1,000 in a savings account at a rate of 5%. Following table shows how the investment grows.
     </p>
-    
+    <p> Calculating Compound interest for a year.</p>
     <table>
       <title>Compound Interest Growth of $1000 in a savings account at a rate of 5% </title>
           <tabular halign="center">
@@ -83,9 +83,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
         <statement>
           <p>
             Calculating the amount in an account <alert>for compound interest paid once year:</alert>
-      <md>
-        A=P(1+r)^{t}
-      </md>
+      <md>   A=P(1+r)^{t} </md>
       where the amount <m>A</m> is the account's <alert>future value</alert> and the principal <m>P</m> is its <alert>present value</alert>.    
           </p>
         </statement>
@@ -95,7 +93,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
        <p> You deposit $2,000 in a savings account, which has a rate 6%. 
         Find the amount, A, of money in the account after 3 years subject to compound interest and find the interest.
        </p>
-       <solution>
+<solution>
         <p>
   To find the amount <m>A</m> after 3 years, we use the compound interest formula 
   <me>A = P(1 + r)^t</me>
@@ -103,14 +101,15 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
 </p>
 <p>
   Substituting the values:
-  <me>A = 2000(1 + 0.06)^3 = 2000(1.06)^3 \approx $2382.03</me>
+  <me>A=2000(1+0.06)^3=2000(1.06)^3=\$2382.03</me>
 </p>
 <p>
   The interest earned is calculated as:
-  <me>I = A - P = 2382.03 - 2000 = $382.03</me>
+  <me>I = A - P = 2382.03 - 2000 = \$382.03</me>
 </p>
-       </solution>
-       </example>
+</solution>
+       
+</example>
 
       <p>
         Calculating the amount in an account <alert>for compound interest paid more than once a year.</alert> The period of time between two interest payments is called the <alert>compounding period</alert>.
@@ -140,10 +139,11 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
         <statement>
         <p>
         If <m>P</m> dollars are deposited at rate <m>r</m>, in decimal form, subject to compound interest paid n times per year, then the amount, <m>A</m>, of money in the account after t years is given by
-      <men xml:id="eqn-compound-interest-formula">
+        </p>
+        <men xml:id="eqn-compound-interest-formula">
         A = P\left(1+\dfrac{r}{n}\right)^{nt}
       </men>
-        where the amount <m>A</m> is the account's <alert>future value</alert> and the principal <m>P</m> is its <alert>present value</alert>. 
+        <p> where the amount <m>A</m> is the account's <alert>future value</alert> and the principal <m>P</m> is its <alert>present value</alert>. 
       </p>
         </statement>
       </definition>
