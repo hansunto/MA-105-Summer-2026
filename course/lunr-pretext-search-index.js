@@ -1189,13 +1189,22 @@ var ptx_lunr_docs = [
   "body": "  A mother has an incentive program to get her five children to read more. She has 30 pieces of candy to divide among her children at the end of the week based on the number of minutes each of them spends reading.    Child  Abby  Bobby  Charli  Dave  Eddie  Total    Reading Times  138  142  188  218  64  750      Use Hamilton's method to apportion 30 pieces of candy.  At the last minute, the mother finds another piece of candy and does the apportionment again. Now, she has 31 pieces of candy to divide among her children at the end of the week based on the number of minutes each of them spends reading. Use Hamilton's method to apportion the candy among the children.  Look at your answers for parts (a) and (b). What changed and why? Why is the change interesting?This is an example of which paradox?      Part (a): 30 Pieces (Standard Divisor = 25)   Apportionment for 30 Pieces    Category  Abby  Bobby  Charli  Dave  Eddie  Total    Reading Min  138  142  188  218  64  750    Std. Quota  5.52  5.68  7.52  8.72  2.56  30.00    Lower Quota  5  5  7  8  2  27    Fraction  0.52  0.68  0.52  0.72  0.56  -    Surplus   +1   +1  +1     Final Seats  5  6  7  9  3  30     Part (b): 31 Pieces (Standard Divisor ≈ 24.1935)   Apportionment for 31 Pieces    Category  Abby  Bobby  Charli  Dave  Eddie  Total    Reading Min  138  142  188  218  64  750    Std. Quota  5.704  5.870  7.771  9.011  2.645  31.00    Lower Quota  5  5  7  9  2  28    Fraction  0.704  0.870  0.771  0.011  0.645  -    Surplus  +1  +1  +1       Final Seats  6  6  8  9  2  31     Part (c): Increasing the total number of items from 30 to 31 creates the Alabama Paradox . In this specific case, Eddie loses a candy even though the total amount of candy increased.   "
 },
 {
-  "id": "ch-Probability",
+  "id": "ch-Probability-3",
   "level": "1",
-  "url": "ch-Probability.html",
-  "type": "Chapter",
+  "url": "ch-Probability-3.html",
+  "type": "Section",
   "number": "",
-  "title": "Probability",
-  "body": " Probability   Beyond just marking a ballot, these concepts shape how our voices are heard and how resources are distributed. This chapter breaks down the mechanics behind decision-making, offering clear examples of how mathematical fairness directly impacts your community and representation.   "
+  "title": "Fundamentals of Probability",
+  "body": " Fundamentals of Probability    If an event E has equally likely outcomes and its sample space S has equally likely outcomes, the theoretical probability of event, , is      A die is rolled. The set of equally likely outcomes is . Find the probability of rolling:    a 2  a number less than 4  a number greater than 7  a number less than 7         The outcomes are , so  There are no such outcomes, so  All outcomes are less than 7, so      "
+},
+{
+  "id": "ch-Probability-3-3",
+  "level": "2",
+  "url": "ch-Probability-3.html#ch-Probability-3-3",
+  "type": "Example",
+  "number": "97",
+  "title": "",
+  "body": "  A die is rolled. The set of equally likely outcomes is . Find the probability of rolling:    a 2  a number less than 4  a number greater than 7  a number less than 7         The outcomes are , so  There are no such outcomes, so  All outcomes are less than 7, so     "
 },
 {
   "id": "notes-week-01",
