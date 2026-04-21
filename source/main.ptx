@@ -51,11 +51,15 @@
     <chapter xml:id="ch-Probability">
       <title>Probability </title>
       <introduction>
-        <p>
-        Beyond just marking a ballot, these concepts shape how our voices are heard and how resources are distributed. This chapter breaks down the mechanics behind decision-making, offering clear examples of how mathematical fairness directly impacts your community and representation.
-        </p>
-      </introduction>
-    
+    <p>
+      Probability is the mathematical study of uncertainty. Whether we are tossing a coin or predicting the weather, we use probability to quantify the likelihood of different outcomes.
+    </p>
+    <p>
+      In this chapter, we will define the fundamental building blocks of the theory, starting with the concept of a <term>sample space</term>.
+    </p>
+  </introduction>
+  <xi:include href="./notes/fundamentalP.ptx" />
+
     </chapter>
 
     <chapter xml:id="course-notes">
