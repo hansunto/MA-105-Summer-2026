@@ -82,36 +82,36 @@ var ptx_lunr_docs = [
   "body": " Determining a present value  How much should you put an investment paying a simple interest rate of 8.0% if you need $3000 in six months?   We can use the formula for future value to find the present value.    "
 },
 {
-  "id": "exercise-S1",
+  "id": "practice-simple-interest-2",
   "level": "2",
-  "url": "notes-simple-interest.html#exercise-S1",
+  "url": "notes-simple-interest.html#practice-simple-interest-2",
   "type": "Exercise",
   "number": "1",
   "title": "Calculating a simple interest rate for a T-bill.",
   "body": " Calculating a simple interest rate for a T-bill   Treasury bills (T-bills) can be purchased from the U.S. Treasury Department. You buy a T-bill for $981.60 that pays $1,000 in 13 weeks. What simple interest rate, to the nearest tenth of a percent, does this T-bill earn?    We can use the formula for future value to find the interest rate.    "
 },
 {
-  "id": "exercise-S2",
+  "id": "practice-simple-interest-3",
   "level": "2",
-  "url": "notes-simple-interest.html#exercise-S2",
+  "url": "notes-simple-interest.html#practice-simple-interest-3",
   "type": "Exercise",
   "number": "2",
   "title": "Calculating a present value for a CD.",
   "body": " Calculating a present value for a CD   A bank offers a CD that pays a simple interest rate of 4.5%. How much must you put in this CD now in order to have $8,000 for a kitchen remodeling project in two years? Round up to the nearest cent.     We can use the formula for future value to find the present value.     "
 },
 {
-  "id": "exercise-S3",
+  "id": "practice-simple-interest-4",
   "level": "2",
-  "url": "notes-simple-interest.html#exercise-S3",
+  "url": "notes-simple-interest.html#practice-simple-interest-4",
   "type": "Exercise",
   "number": "3",
   "title": "Calculating a future value for a savings account.",
   "body": " Calculating a future value for a savings account   You deposit $1,000 in a savings account at a bank that has a rate of 1.95%. Find a future value at the end of 5 years.     We can use the formula for future value to find the amount due at the end of 5 years.      "
 },
 {
-  "id": "exercise-S4",
+  "id": "practice-simple-interest-5",
   "level": "2",
-  "url": "notes-simple-interest.html#exercise-S4",
+  "url": "notes-simple-interest.html#practice-simple-interest-5",
   "type": "Exercise",
   "number": "4",
   "title": "Determining whether a statement makes sense or not, explain your reasoning..",
@@ -811,9 +811,9 @@ var ptx_lunr_docs = [
   "body": "Majority Rule Decision "
 },
 {
-  "id": "def-plurality-elimination",
+  "id": "def-elimination",
   "level": "2",
-  "url": "notes-Voting.html#def-plurality-elimination",
+  "url": "notes-Voting.html#def-elimination",
   "type": "Definition",
   "number": "41",
   "title": "The Plurality-with-Elimination Method.",
@@ -1099,9 +1099,9 @@ var ptx_lunr_docs = [
   "body": " Apportioning Math Course Sections   Thirty sections of math courses are to be offered in introductory algebra, intermediate algebra, college algebra, and liberal arts math. The preregistration figures for the number of students planning to enroll in each section are given in the following table.    Course  Intro  Intermed  College  Lib Arts  Total    Enrollment  388  405  213  345  1351      Use Hamilton's method to determine how many sections of each course should be offered.    Use Jefferson's method with Modified divisor md = to determine how many sections of each course should be offered.    Use Adam's method with Modified divisor md = to determine how many sections of each course should be offered.      Thirty sections of math courses are to be offered based on preregistration figures.       Hamilton's Method (SD = 45.0333):    Course  Intro  Intermed  College  Lib Arts  Total    Enrollment  388  405  213  345  1351    Standard Quota  8.6158  8.9933  4.7298  7.6610  30    Lower Quota  8  8  4  7  27    Fractional Part  0.6158  0.9933  0.7298  0.6610  —    Surplus Row  0  +1  +1  +1  +3    Apportionment  8  9  5  8  30       Jefferson's Method (using ):    Course  Intro  Intermed  College  Lib Arts  Total    Mod. Quota  9.129  9.529  5.011  8.117  —    Apportionment  9  9  5  8  31 (Try Again)    Mod. Quota ( )  9.023  9.418  4.953  8.023  —    Apportionment  9  9  4  8  30       Adam's Method (using ):    Course  Intro  Intermed  College  Lib Arts  Total    Mod. Quota  8.083  8.437  4.437  7.187  —    Apportionment  9  9  5  8  31 (Try Again)    Mod. Quota ( )  7.918  8.265  4.346  7.040  —    Apportionment  8  9  5  8  30        "
 },
 {
-  "id": "100seats",
+  "id": "ex-100-seats",
   "level": "2",
-  "url": "section-apportionment.html#100seats",
+  "url": "section-apportionment.html#ex-100-seats",
   "type": "Example",
   "number": "85",
   "title": "Hamilton’s Method Apportionment of 100 seats.",
@@ -1117,9 +1117,9 @@ var ptx_lunr_docs = [
   "body": " The Alabama Paradox   In a fair apportionment system, adding extra seats must not result in fewer seats for any state. The Alabama Paradox occurs when the total number of available seats increases, yet one state (or more) loses seats as a result. This paradox can occur when using Hamilton's method .   "
 },
 {
-  "id": "101seats",
+  "id": "ex-101-seats",
   "level": "2",
-  "url": "section-apportionment.html#101seats",
+  "url": "section-apportionment.html#ex-101-seats",
   "type": "Example",
   "number": "89",
   "title": "Hamilton’s Method Apportionment of 101 seats.",
@@ -1187,6 +1187,15 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  A mother has an incentive program to get her five children to read more. She has 30 pieces of candy to divide among her children at the end of the week based on the number of minutes each of them spends reading.    Child  Abby  Bobby  Charli  Dave  Eddie  Total    Reading Times  138  142  188  218  64  750      Use Hamilton's method to apportion 30 pieces of candy.  At the last minute, the mother finds another piece of candy and does the apportionment again. Now, she has 31 pieces of candy to divide among her children at the end of the week based on the number of minutes each of them spends reading. Use Hamilton's method to apportion the candy among the children.  Look at your answers for parts (a) and (b). What changed and why? Why is the change interesting?This is an example of which paradox?      Part (a): 30 Pieces (Standard Divisor = 25)   Apportionment for 30 Pieces    Category  Abby  Bobby  Charli  Dave  Eddie  Total    Reading Min  138  142  188  218  64  750    Std. Quota  5.52  5.68  7.52  8.72  2.56  30.00    Lower Quota  5  5  7  8  2  27    Fraction  0.52  0.68  0.52  0.72  0.56  -    Surplus   +1   +1  +1     Final Seats  5  6  7  9  3  30     Part (b): 31 Pieces (Standard Divisor ≈ 24.1935)   Apportionment for 31 Pieces    Category  Abby  Bobby  Charli  Dave  Eddie  Total    Reading Min  138  142  188  218  64  750    Std. Quota  5.704  5.870  7.771  9.011  2.645  31.00    Lower Quota  5  5  7  9  2  28    Fraction  0.704  0.870  0.771  0.011  0.645  -    Surplus  +1  +1  +1       Final Seats  6  6  8  9  2  31     Part (c): Increasing the total number of items from 30 to 31 creates the Alabama Paradox . In this specific case, Eddie loses a candy even though the total amount of candy increased.   "
+},
+{
+  "id": "ch-Probability",
+  "level": "1",
+  "url": "ch-Probability.html",
+  "type": "Chapter",
+  "number": "",
+  "title": "Probability",
+  "body": " Probability   Beyond just marking a ballot, these concepts shape how our voices are heard and how resources are distributed. This chapter breaks down the mechanics behind decision-making, offering clear examples of how mathematical fairness directly impacts your community and representation.   "
 },
 {
   "id": "notes-week-01",
