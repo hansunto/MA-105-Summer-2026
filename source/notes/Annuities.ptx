@@ -335,129 +335,110 @@
         </p>
     </solution>
 </example>
-
 <exercise xml:id="exercise-a3">
-    <title>Calculating the Value of an Annuity</title>
-    <statement>
+  <title>Calculating the Value of an Annuity</title>
+  <statement>
+    <p>
+      You deposit $2,000 into a savings plan at the end of each year for three years. 
+      The interest rate is 10% per year compounded annually.
+    </p>
+    <ol marker="1">
+      <li>
         <p>
-            You deposit <m>\$2,000</m> into a savings plan at the end of each year 
-            for three years. The interest rate is <m>10\%</m> per year 
-            compounded annually.
-            <ol marker="1">
-                <li>
-                    <p>
-                        Find the value of the annuity after three years.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Find the interest earned.
-                    </p>
-                </li>
-            </ol>
+          Find the value of the annuity after three years.
         </p>
-    </statement>
-    <solution>
+      </li>
+      <li>
         <p>
-            We use the future value formula for an annuity:
-            <me>A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}</me>
-            where <m>P = 2,000</m>, <m>r = 0.10</m>, <m>n = 1</m>, and <m>t = 3</m>.
+          Find the interest earned.
         </p>
+      </li>
+    </ol>
+  </statement>
+  <solution>
+    <p>
+      We use the future value formula for an annuity:
+      <me>A = \frac{P\left[\left(1+\frac{r}{n}\right)^{nt}-1\right]}{\left(\frac{r}{n}\right)}</me>
+      where <m>P = 2000</m>, <m>r = 0.10</m>, <m>n = 1</m>, and <m>t = 3</m>.
+    </p>
+    <ol marker="1">
+      <li>
         <p>
-            <ol marker="1">
-                <li>
-                    <p>
-                        Substituting the values into the formula:
-                        <md>
-                            <mrow>A \amp = \frac{2,000\left[(1 + 0.10)^{3} - 1\right]}{0.10}</mrow>
-                            <mrow>A \amp = \frac{2,000\left[(1.1)^{3} - 1\right]}{0.10}</mrow>
-                            <mrow>A \amp = \frac{2,000(1.331 - 1)}{0.10}</mrow>
-                            <mrow>A \amp = 6,620</mrow>
-                        </md>
-                        The value of the annuity after three years is <m>\$6,620</m>.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The total amount of deposits made is <m>3 \times 2,000 = \$6,000</m>. 
-                        The interest earned is the difference between the future value 
-                        and the total deposits:
-                        <me>I = 6,620 - 6,000 = \$620</me>
-                        The interest earned is <m>\$620</m>.
-                    </p>
-                </li>
-            </ol>
+          Substituting the values into the formula:
+          <md>
+            <mrow>A \amp = \frac{2000\left[(1 + 0.10)^{3} - 1\right]}{0.10}</mrow>
+            <mrow>\amp = \frac{2000\left[(1.1)^{3} - 1\right]}{0.10}</mrow>
+            <mrow>\amp = \frac{2000(1.331 - 1)}{0.10}</mrow>
+            <mrow>\amp = 6620</mrow>
+          </md>
+          The value of the annuity after three years is $6,620.
         </p>
-    </solution>
+      </li>
+      <li>
+        <p>
+          The total amount of deposits made is <m>3 \times 2000 = 6000</m>. 
+          The interest earned is the difference between the future value and the total deposits:
+          <me>I = 6620 - 6000 = 620</me>
+          The interest earned is $620.
+        </p>
+      </li>
+    </ol>
+  </solution>
+</exercise>
+
+<exercise xml:id="exercise-a4">
+  <title>Retirement Savings: Growth After Contributions Cease</title>
+  <statement>
+    <p>
+      To save for retirement, you decide to deposit $3,000 into an IRA at the end of each year for the <alert>next 10</alert> years. If you can count on an interest rate of 9% per year compounded annually:
+    </p>
+    <ol marker="1">
+      <li> <p>  How much will you have from the IRA <alert>after 40</alert> years, assuming no additional deposits or withdrawals after the 10 years of contribution? </p>
+      </li>
+      <li> <p> Find the interest earned. </p>
+      </li>
+    </ol>
+  </statement>
+  <solution>
+    <p>
+      This problem requires two steps. First, we find the value of the annuity after the 10-year contribution period. Second, we treat that amount as a lump sum that grows for the remaining 30 years.
+    </p>
+    <p>
+      <term>Step 1: Future Value of the Annuity (Years 1-10)</term>
+      <md>
+        <mrow>A_{10} \amp = \frac{3000\left[(1 + 0.09)^{10} - 1\right]}{0.09}</mrow>
+        <mrow>\amp = \frac{3000(2.36736 - 1)}{0.09}</mrow>
+        <mrow>\amp \approx 45578.80</mrow>
+      </md>
+    </p>
+    <p>
+      <term>Step 2: Compound Interest on the Lump Sum (Years 11-40)</term> 
+      The balance grows for <m>40 - 10 = 30</m> more years using the formula <m>A = P(1 + r)^t</m>:
+      <md>
+        <mrow>A_{40} \amp = 45578.80(1 + 0.09)^{30}</mrow>
+        <mrow>\amp = 45578.80(13.26768)</mrow>
+        <mrow>\amp \approx 604725.10</mrow>
+      </md>
+    </p>
+    <ol marker="1">
+      <li>
+        <p>
+          After 40 years, the total value will be $604,725.10.
+        </p>
+      </li>
+      <li>
+        <p>
+          The total deposits were <m>3000 \times 10 = 30000</m>.
+          <me>I = 604725.10 - 30000 = 574725.10</me>
+          The interest earned is $574,725.10.
+        </p>
+      </li>
+    </ol>
+  </solution>
 </exercise>
 
 <exercises xml:id="practice-annuity">
   <title>Exercises for Practice</title>
-<exercise xml:id="exercise-a4">
-    <title>Retirement Savings: Growth After Contributions Cease</title>
-    <statement>
-        <p>
-            To save for retirement, you decide to deposit <m>\$3,000</m> into an IRA 
-            at the end of each year for the <alert>next 10</alert> years. If you 
-            can count on an interest rate of <m>9\%</m> per year compounded annually:
-            <ol marker="1">
-                <li>
-                    <p>
-                        How much will you have from the IRA <alert>after 40</alert> 
-                        years, assuming no additional deposits or withdrawals 
-                        after the 10 years of contribution?
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        Find the interest earned.
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </statement>
-    <solution>
-        <p>
-            This problem requires two steps. First, we find the value of the 
-            annuity after the 10-year contribution period. Second, we treat 
-            that amount as a lump sum that grows for the remaining 30 years.
-        </p>
-        <p>
-            <strong>Step 1: Future Value of the Annuity (Years 1–10)</strong>
-            <me>A_{10} = \frac{3,000\left[(1 + 0.09)^{10} - 1\right]}{0.09}</me>
-            <md>
-                <mrow>A_{10} \amp = \frac{3,000(2.36736 - 1)}{0.09}</mrow>
-                <mrow>A_{10} \amp \approx 45,578.80</mrow>
-            </md>
-        </p>
-        <p>
-            <strong>Step 2: Compound Interest on the Lump Sum (Years 11–40)</strong>
-            The balance grows for <m>40 - 10 = 30</m> more years using the 
-            formula <m>A = P(1 + r)^t</m>:
-            <md>
-                <mrow>A_{40} \amp = 45,578.80(1 + 0.09)^{30}</mrow>
-                <mrow>A_{40} \amp = 45,578.80(13.26768)</mrow>
-                <mrow>A_{40} \amp \approx 604,725.10</mrow>
-            </md>
-        </p>
-        <p>
-            <ol marker="1">
-                <li>
-                    <p>
-                        After 40 years, you will have <m>\$604,725.10</m>.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The total deposits were <m>3,000 \times 10 = \$30,000</m>.
-                        <me>I = 604,725.10 - 30,000 = \$574,725.10</me>
-                        The interest earned is <m>\$574,725.10</m>.
-                    </p>
-                </li>
-            </ol>
-        </p>
-    </solution>
-</exercise>
 
 <exercise xml:id="exercise-a5">
     <title>Retirement Savings Analysis</title>
