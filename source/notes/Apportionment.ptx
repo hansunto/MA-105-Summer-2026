@@ -183,6 +183,7 @@
   </example>
 
 <assemblage>
+  <title>Modified Divisor (MD)</title>
       <p>
         A <term>Modified divisor</term> is a divisor, chosen by guess-and-check, that is used to make the sum of the modified quotas exactly equal to the number of items to be apportioned.
       </p>
@@ -484,12 +485,12 @@
 </solution>
 </example>
 <assemblage>
+<title>Finding the Modified Divisor for Adam's Method:</title>
 <p>
-<term>Finding the Modified Divisor for Adam's Method:</term>
-<ol>
-<li>Compute the standard divisor <m>D = \text{Total population} / \text{Number of seats}</m>.</li>
+  <ol>
+<li>Compute the standard divisor <me>D = \frac{\text{Total population}}{\text{Number of seats}}</me>.</li>
 <li>Increase <m>D</m> by an amount so that when allocations (State population / Modified D) are rounded upward, they add up to the exact number of seats.</li>
-</ol>
+ </ol>
 </p>
 </assemblage>
 
