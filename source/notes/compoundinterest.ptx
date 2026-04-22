@@ -22,7 +22,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
     <alert>Compound interest</alert> is interest computed on the original principal as well as on any accumulated interest.
     </p>    
   </assemblage>
-      <p>
+    <p>
       For example, suppose you deposit $1,000 in a savings account at a rate of 5%. Following table shows how the investment grows.
     </p>
     <p> Calculating Compound interest for a year.</p>
@@ -72,7 +72,7 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
                 <cell />
               </row>
             </tabular>
-      </table>
+    </table>
 
       <p>
         The fast way to determine the amount, <m>A,</m> in the account subject to compound interest is the following formula. If <m>P</m> dollars are deposited at rate <m>r</m>, in decimal form, subject to compound interest, then the amount, <m>A</m>, of money in the account after t years is given by
@@ -191,7 +191,6 @@ So, how did the present value of Manhattan in 1626 attain a future value of over
    </statement>
  </definition>
 
- 
 <example xml:id="example-C3"> 
  <title>Calculating present value</title>
  <p> 

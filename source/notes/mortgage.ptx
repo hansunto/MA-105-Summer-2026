@@ -61,8 +61,10 @@ Mortgages can have a fixed interest rate or a variable interest rate.
 </p>
 </definition>
 
-<p xml:id="example-m1">
-For example, the price of a home is $195,000. The bank requires a 10% down payment and two points at the time of closing. The cost of the home is financed with 30-year fixed rate mortgage at 7.5%.
+<example xml:id="example-m1">
+  <title></title>
+  <statement>
+<p> The price of a home is $195,000. The bank requires a 10% down payment and two points at the time of closing. The cost of the home is financed with 30-year fixed rate mortgage at 7.5%.</p>
 <ol>
     <li>
     <p> Find the required down payment. </p>
@@ -84,8 +86,8 @@ For example, the price of a home is $195,000. The bank requires a 10% down payme
     <p> Find the total interest paid over 30 years. </p>
     </li>
 </ol>
-</p>
-
+</statement>
+  
 <solution>
   <ol>
     <li>
@@ -141,6 +143,7 @@ For example, the price of a home is $195,000. The bank requires a 10% down payme
     </li>
   </ol>
 </solution>
+</example>
 
 <example xml:id="example-mortgage-M01">
   <title>Comparing 30-Year and 15-Year Mortgages</title>

@@ -250,11 +250,6 @@
             <cell>Town</cell><cell>Westboro</cell><cell>Shrewbury</cell><cell>Worcester</cell><cell>Total</cell>
           </row>
           <row><cell>Population</cell><cell>89</cell><cell>120</cell><cell>168</cell><cell>377</cell></row>
-          <!-- <row><cell>Standard Quota</cell><cell>2.59</cell><cell>3.50</cell><cell>4.90</cell><cell>10.99</cell></row>-->
-          <!-- <row><cell>Lower Quota</cell><cell>2</cell><cell>3</cell><cell>4</cell><cell>9</cell></row>-->
-          <!-- <row><cell>Modified Quota (MD=31)</cell><cell>2.87</cell><cell>3.87</cell><cell>5.41</cell><cell>12.15</cell></row>-->
-          <!-- <row><cell>Modified LQ</cell><cell>2</cell><cell>3</cell><cell>5</cell><cell>10</cell></row>-->
-          <!-- <row><cell>Modified Quota (MD=30)</cell><cell>2.96</cell><cell>4.00</cell><cell>5.60</cell><cell>12.56</cell></row>-->
           <row><cell>Final Apportionment</cell><cell> </cell><cell> </cell><cell> </cell><cell> </cell></row>
         </tabular>
       </table>
