@@ -104,7 +104,7 @@
         </statement>
       </definition>
 
-      <example>
+      <example xml:id="ex-plurality">
         <statement>
           <p>
             <xref ref="tab-preference-election" /> shows the preference table for the four candidates running for student body president. 

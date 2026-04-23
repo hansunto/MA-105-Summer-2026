@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="unit-01" xmlns:xi="http://www.w3.org/2001/XInclude">
-   <title>Unit 1: Voting Methods</title>
+<section xml:id="unit-02" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <title>Unit 2: Apportionment </title>
    <!--<xi:include href="voting.ptx" />-->
   <introduction>
     <p>
@@ -10,11 +10,15 @@
       The central objective is always to ensure the outcome reflects public preference as fairly as possible. 
       By examining four distinct voting methods, we can observe how the same set of ballots can lead to different winners depending on the system applied.
     </p>
-    
+    <p> 
+    <term>Apportionment </term>, conversely, deals with distributing a fixed set of resources among groups of varying sizes. 
+    While most famously used to assign congressional seats to states, this mathematical theory applies to various logistical challenges, 
+    such as scheduling hospital staff or distributing buses across transit routes based on ridership.
+    </p>
   </introduction>
 
   <!-- Can also be <handout> instead of <subsection> to get a printable version -->
-  <subsection xml:id="unit01-voting" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <handout xml:id="unit01" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Voting Methods</title>
   <p>
     In various decision-making scenarios—from friends picking a movie to a nation electing leaders—gathering a group consensus is essential. 
@@ -26,10 +30,8 @@
    In deciding upon a winner, there is always one main goal:  
    to reflect the preferences of the people in the most fair way possible. 
   </p>
-  </subsection>
-
-  <handout xml:id="unit01-preference" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Preference Table</title>
+  <subsection xml:id="subsec-preference">
+    <title>preference</title>
     <assemblage>
       <p>
       <term>Preference ballots</term> are ballots in which the voter ranks the choices in order of preference. 
@@ -155,19 +157,19 @@
     <myopenmath problem="1410999" />
   </exercise>
 </activity>
-</handout>
+ 
+</subsection>
 
-<handout xml:id="unit01-plurality" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Plurality Method</title>
-  <p> The voting method we're most familiar with in the United States is the plurality method (<xref ref="def-plurality-method"/>). In this method, the choice with the most first-preference votes is declared the winner. 
+<subsection xml:id="subsec-plurality">
+  <title>plurality</title>
+  <p> The voting method we're most familiar with in the United States is the plurality method. In this method, the choice with the most first-preference votes is declared the winner. 
     Note that a preference table is not necessary for plurality, as only the first-choice votes are considered.
   </p>
   <p> This method is sometimes mistakenly called the majority method, or “majority rules”, but it is not necessary for a choice to have gained a majority of votes to win.
      A majority is over 50%; it is possible for a winner to have a plurality without having a majority!
   </p> 
-  <p> Here's an example (<xref ref="ex-plurality"/>) demonstrating how the plurality method is used to determine the winner for an election.
+  <p> Here's an example demonstrating how the plurality method is used to determine the winner for an election.
   </p>
-
     <activity>
     <exercise>
       <title>Plurality Method</title>
@@ -175,77 +177,23 @@
     </exercise>
   </activity>
 
-</handout>
+</subsection>
 
-<handout xml:id="unit01-Elimination" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Plurality with Elimination Method</title>
-  <p> In plurality with elimination, voting is done with preference ballots and a preference table is generated.  The choice with the least first-place votes is then eliminated from the election, and any votes for that candidate are redistributed to the voters' next choice.  
-    This continues until a choice has a majority (over 50%).</p>
-    <p>
-    This is similar to the idea of holding runoff elections, but since every voter's order of preference is recorded on the ballot, the runoff can be computed without requiring a second costly election.</p>
-    <p>
-    This voting method is used in several political elections around the world, including election of members of the Australian House of Representatives. 
-     A version of plurality with elimination is used by the International Olympic Committee to select host nations.</p>
-    <p> 
-    Here is an example of using plurality with elimination to determine the winner of an election. </p>
 
-    <exercise>
-  <title>Plurality with Elimination Method</title>
-  <statement>
-    <p>Watch the following video to understand how the plurality with elimination method determines a winner based on majority votes.</p>
-    <video youtube="UNqgo3H5YaQ" />
-    <p>Using the data from the video, calculate the majority threshold for an election with 47 total votes.</p>
-  </statement>
-  <solution>
-    <p>As explained in the video, a majority is more than half. Half of 47 is 23.5, so the majority threshold is 24 votes.</p>
-  </solution>
-</exercise>
+
+
+
 
  <activity>
+
 <exercise>
   <title>Plurality with Elimination Method</title>
   <myopenmath problem="1411007" />
 </exercise>
-</activity>
-</handout>
-
-<handout xml:id="unit01-Borda" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Borda Count Method</title>
-  <p>  Another voting method is the Borda Count. In this method, points are assigned to candidates based on their ranking; 
-    1 point for last choice, 2 points for second-to-last choice, and so on.
-    The point values for all ballots are totaled, and the candidate with the largest point total is the winner, (<xref ref="exe-borda-example"/>) .
-  </p>
-  <p> Here is an example us using Borda count to determine the winner of an election.
-  </p>
-  <p>
-  Borda count method is sometimes described as a consensus-based voting system, since it can sometimes choose a more broadly acceptable option over the one with majority support. 
-  </p>
-  <p> Because of this consensus behavior, Borda Count (or some variation of it) is commonly used in awarding sports awards.
-  Variations are used to determine the Most Valuable Player in baseball, to rank teams in NCAA sports, and to award the Heisman trophy in college football.
-  </p>
-
-  <p> Now try a similar problem below!</p>
-<activity>
-  <exercise>
+<exercise>
   <title>Borda Count Method</title>
   <myopenmath problem="1411010" />
 </exercise>
-</activity>
-</handout>
-
-<handout xml:id="unit01-Comparisons" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Pairwise Comparisons Method</title>
-  <p>  Our final voting method is the pairwise comparison's method. 
-    In this method, each pair of candidates is compared, using all preferences to determine which of the two is more preferred.  
-    The more preferred candidate is awarded 1 point. 
-    If there is a tie, each candidate is awarded 1/2 point. 
-    After all pairwise comparisons are made, the candidate with the most points, and hence the most pairwise wins, is declared the winner, (<xref ref="exe-pairwise-example"/>).
-
-Variations of the pairwise comparison method are used in many professional organizations, including election of the Board of Trustees for the Wikimedia Foundation that runs Wikipedia.
-
-Here is an example of using the pairwise comparison method to determine the winner of an election. </p>
-<activity>
-
 <exercise>
   <title>Pairwise Comparisons</title>
    <myopenmath problem="1411014" />
@@ -256,6 +204,8 @@ Here is an example of using the pairwise comparison method to determine the winn
   </p>
   <myopenmath problem="1411035" />
 </exercise>
+
+
 </activity>
 </handout>
 
@@ -271,5 +221,18 @@ Here is an example of using the pairwise comparison method to determine the winn
 
   
 
+  <subsection>
+    <title>Wednesday 8/24</title>
 
+    <p>
+    </p>
+  </subsection>
+
+
+  <subsection>
+    <title>Friday 8/26</title>
+
+    <p>
+    </p>
+  </subsection>
 </section>
