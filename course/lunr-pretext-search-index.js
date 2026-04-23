@@ -802,9 +802,9 @@ var ptx_lunr_docs = [
   "body": " The Plurality Method   The candidate (or candidates, if there is more than one) with the most first-place votes is the winner.   "
 },
 {
-  "id": "notes-Voting-2-5",
+  "id": "ex-plurality",
   "level": "2",
-  "url": "notes-Voting.html#notes-Voting-2-5",
+  "url": "notes-Voting.html#ex-plurality",
   "type": "Example",
   "number": "42",
   "title": "",
@@ -1195,7 +1195,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Fundamentals of Probability",
-  "body": " Fundamentals of Probability    If an event E has equally likely outcomes and its sample space S has equally likely outcomes, the theoretical probability of event, , is      A die is rolled. The set of equally likely outcomes is . Find the probability of rolling:    a 2  a number less than 4  a number greater than 7  a number less than 7         The outcomes are , so  There are no such outcomes, so  All outcomes are less than 7, so      "
+  "body": " Fundamentals of Probability    If an event E has equally likely outcomes and its sample space S has equally likely outcomes, the theoretical probability of event, , is      A die is rolled. The set of equally likely outcomes is . Find the probability of rolling:    a 2  a number less than 4  a number greater than 7  a number less than 7         The outcomes are , so  There are no such outcomes, so  All outcomes are less than 7, so       Sample Space for Two Six-Sided Dice    Die 1 \\ 2  1 2 3  4 5 6    1  (1,1) (1,2) (1,3)  (1,4) (1,5) (1,6)    2  (2,1) (2,2) (2,3)  (2,4) (2,5) (2,6)    3  (3,1) (3,2) (3,3)  (3,4) (3,5) (3,6)    4  (4,1) (4,2) (4,3)  (4,4) (4,5) (4,6)    5  (5,1) (5,2) (5,3)  (5,4) (5,5) (5,6)    6  (6,1) (6,2) (6,3)  (6,4) (6,5) (6,6)      Tree diagram for three coin tosses       Standard Deck of 52 Playing Cards    Suit  A 2 3 4 5 6  7 8 9 10 J Q K     Hearts (Red)                 Diamonds (Red)                  Spades (Black)  A♠ 2♠ 3♠ 4♠ 5♠ 6♠  7♠ 8♠ 9♠ 10♠ J♠ Q♠ K♠    Clubs (Black)  A♣ 2♣ 3♣ 4♣ 5♣ 6♣  7♣ 8♣ 9♣ 10♣ J♣ Q♣ K♣      A standard deck of 52 playing cards.   A grid showing all 52 playing cards organized by suit: Clubs and Spades in black, Hearts and Diamonds in red.    "
 },
 {
   "id": "ch-Probability-3-3",
@@ -1207,36 +1207,63 @@ var ptx_lunr_docs = [
   "body": "  A die is rolled. The set of equally likely outcomes is . Find the probability of rolling:    a 2  a number less than 4  a number greater than 7  a number less than 7         The outcomes are , so  There are no such outcomes, so  All outcomes are less than 7, so     "
 },
 {
+  "id": "table-dice-sample-space",
+  "level": "2",
+  "url": "ch-Probability-3.html#table-dice-sample-space",
+  "type": "Table",
+  "number": "100",
+  "title": "Sample Space for Two Six-Sided Dice",
+  "body": " Sample Space for Two Six-Sided Dice    Die 1 \\ 2  1 2 3  4 5 6    1  (1,1) (1,2) (1,3)  (1,4) (1,5) (1,6)    2  (2,1) (2,2) (2,3)  (2,4) (2,5) (2,6)    3  (3,1) (3,2) (3,3)  (3,4) (3,5) (3,6)    4  (4,1) (4,2) (4,3)  (4,4) (4,5) (4,6)    5  (5,1) (5,2) (5,3)  (5,4) (5,5) (5,6)    6  (6,1) (6,2) (6,3)  (6,4) (6,5) (6,6)    "
+},
+{
+  "id": "fig-coin-toss-tree-clean",
+  "level": "2",
+  "url": "ch-Probability-3.html#fig-coin-toss-tree-clean",
+  "type": "Figure",
+  "number": "101",
+  "title": "",
+  "body": " Tree diagram for three coin tosses     "
+},
+{
+  "id": "table-deck-color",
+  "level": "2",
+  "url": "ch-Probability-3.html#table-deck-color",
+  "type": "Table",
+  "number": "102",
+  "title": "Standard Deck of 52 Playing Cards",
+  "body": " Standard Deck of 52 Playing Cards    Suit  A 2 3 4 5 6  7 8 9 10 J Q K     Hearts (Red)                 Diamonds (Red)                  Spades (Black)  A♠ 2♠ 3♠ 4♠ 5♠ 6♠  7♠ 8♠ 9♠ 10♠ J♠ Q♠ K♠    Clubs (Black)  A♣ 2♣ 3♣ 4♣ 5♣ 6♣  7♣ 8♣ 9♣ 10♣ J♣ Q♣ K♣    "
+},
+{
+  "id": "fig-deck-of-cards",
+  "level": "2",
+  "url": "ch-Probability-3.html#fig-deck-of-cards",
+  "type": "Figure",
+  "number": "103",
+  "title": "",
+  "body": " A standard deck of 52 playing cards.   A grid showing all 52 playing cards organized by suit: Clubs and Spades in black, Hearts and Diamonds in red.   "
+},
+{
   "id": "unit-01",
   "level": "1",
   "url": "unit-01.html",
   "type": "Section",
   "number": "",
-  "title": "Unit 1: Voting Methods and Apportionment",
-  "body": " Unit 1: Voting Methods and Apportionment    Group decision-making often relies on voting to reach a consensus. While the concept is simple, the specific rules used to count those votes can vary significantly. The central objective is always to ensure the outcome reflects public preference as fairly as possible. By examining four distinct voting methods, we can observe how the same set of ballots can lead to different winners depending on the system applied.   Apportionment , conversely, deals with distributing a fixed set of resources among groups of varying sizes. While most famously used to assign congressional seats to states, this mathematical theory applies to various logistical challenges, such as scheduling hospital staff or distributing buses across transit routes based on ridership.     Voting Methods  In various decision-making scenarios—from friends picking a movie to a nation electing leaders—gathering a group consensus is essential. While the act of voting is common, the systems used to determine a winner differ. For instance, a group might use approval voting, a company might use a multi-stage elimination process, and a government may rely on a plurality of votes.  In deciding upon a winner, there is always one main goal: to reflect the preferences of the people in the most fair way possible.   preference    Preference ballots are ballots in which the voter ranks the choices in order of preference.  A preference table is a table which shows the number of voters who voted for each option.     A vacation club is trying to decide which destination to visit this year: Hawaii (H), Orlando (O), or Anaheim (A). Their preference ballots are shown below:     Bob  Ann  Marv  Alice  Eve  Omar  Lupe  Dave  Tish  Jim    1st choice  A  A  O  H  A  O  H  O  H  A    2nd choice  O  H  H  A  H  H  A  H  A  H    3rd choice  H  O  A  O  O  A  O  A  O  O    Notice that several members had the same preferences. For example, Ann, Eve, and Jim all listed Anaheim as their top preference, Hawaii as their second preference, and Orlando as their third preference. This is indicated by the 3 in the second column of the preference table below.    Votes  1  3  3  3    1st choice  A  A  O  H    2nd choice  O  H  H  A    3rd choice  H  O  A  O    By totaling the vote count across the top row, we recover the total of votes cast. We will discuss four methods for determining the winner: plurality, plurality with elimination, Borda count, and pairwise comparison.      Understanding Preference Ballots and Preference Tables 01     Understanding Preference Ballots and Preference Tables 02       plurality  The voting method we're most familiar with in the United States is the plurality method. In this method, the choice with the most first-preference votes is declared the winner. Note that a preference table is not necessary for plurality, as only the first-choice votes are considered.  This method is sometimes mistakenly called the majority method, or “majority rules”, but it is not necessary for a choice to have gained a majority of votes to win. A majority is over 50%; it is possible for a winner to have a plurality without having a majority!  Here's an example demonstrating how the plurality method is used to determine the winner for an election.    Plurality Method        Plurality with Elimination Method     Borda Count Method     Pairwise Comparisons     Voting Methods: Wrapping Up!  We have seen four different methods for determining the winner of an election. Through our examples and problems, we have also seen that these different methods can lead to different winners! In particular, in the Math Club President election considered throughout the exercises, it turns out that each of the four voting methods leads to each of the four candidates being declared the winner!       Wednesday 8\/24      Friday 8\/26     "
+  "title": "Unit 1: Voting Methods",
+  "body": " Unit 1: Voting Methods    Group decision-making often relies on voting to reach a consensus. While the concept is simple, the specific rules used to count those votes can vary significantly. The central objective is always to ensure the outcome reflects public preference as fairly as possible. By examining four distinct voting methods, we can observe how the same set of ballots can lead to different winners depending on the system applied.     Voting Methods  In various decision-making scenarios—from friends picking a movie to a nation electing leaders—gathering a group consensus is essential. While the act of voting is common, the systems used to determine a winner differ. For instance, a group might use approval voting, a company might use a multi-stage elimination process, and a government may rely on a plurality of votes.  In deciding upon a winner, there is always one main goal: to reflect the preferences of the people in the most fair way possible.    Preference Table    Preference ballots are ballots in which the voter ranks the choices in order of preference.  A preference table is a table which shows the number of voters who voted for each option.     A vacation club is trying to decide which destination to visit this year: Hawaii (H), Orlando (O), or Anaheim (A). Their preference ballots are shown below:     Bob  Ann  Marv  Alice  Eve  Omar  Lupe  Dave  Tish  Jim    1st choice  A  A  O  H  A  O  H  O  H  A    2nd choice  O  H  H  A  H  H  A  H  A  H    3rd choice  H  O  A  O  O  A  O  A  O  O    Notice that several members had the same preferences. For example, Ann, Eve, and Jim all listed Anaheim as their top preference, Hawaii as their second preference, and Orlando as their third preference. This is indicated by the 3 in the second column of the preference table below.    Votes  1  3  3  3    1st choice  A  A  O  H    2nd choice  O  H  H  A    3rd choice  H  O  A  O    By totaling the vote count across the top row, we recover the total of votes cast. We will discuss four methods for determining the winner: plurality, plurality with elimination, Borda count, and pairwise comparison.      Understanding Preference Ballots and Preference Tables 01     Understanding Preference Ballots and Preference Tables 02       Plurality Method  The voting method we're most familiar with in the United States is the plurality method ( ). In this method, the choice with the most first-preference votes is declared the winner. Note that a preference table is not necessary for plurality, as only the first-choice votes are considered.  This method is sometimes mistakenly called the majority method, or “majority rules”, but it is not necessary for a choice to have gained a majority of votes to win. A majority is over 50%; it is possible for a winner to have a plurality without having a majority!  Here's an example ( ) demonstrating how the plurality method is used to determine the winner for an election.    Plurality Method       Plurality with Elimination Method  In plurality with elimination, voting is done with preference ballots and a preference table is generated. The choice with the least first-place votes is then eliminated from the election, and any votes for that candidate are redistributed to the voters' next choice. This continues until a choice has a majority (over 50%).  This is similar to the idea of holding runoff elections, but since every voter's order of preference is recorded on the ballot, the runoff can be computed without requiring a second costly election.  This voting method is used in several political elections around the world, including election of members of the Australian House of Representatives. A version of plurality with elimination is used by the International Olympic Committee to select host nations.  Here is an example of using plurality with elimination to determine the winner of an election.   Plurality with Elimination Method   Watch the following video to understand how the plurality with elimination method determines a winner based on majority votes.   Using the data from the video, calculate the majority threshold for an election with 47 total votes.    As explained in the video, a majority is more than half. Half of 47 is 23.5, so the majority threshold is 24 votes.      Plurality with Elimination Method       Borda Count Method  Another voting method is the Borda Count. In this method, points are assigned to candidates based on their ranking; 1 point for last choice, 2 points for second-to-last choice, and so on. The point values for all ballots are totaled, and the candidate with the largest point total is the winner, ( ) .  Here is an example us using Borda count to determine the winner of an election.  Borda count method is sometimes described as a consensus-based voting system, since it can sometimes choose a more broadly acceptable option over the one with majority support.  Because of this consensus behavior, Borda Count (or some variation of it) is commonly used in awarding sports awards. Variations are used to determine the Most Valuable Player in baseball, to rank teams in NCAA sports, and to award the Heisman trophy in college football.  Now try a similar problem below!    Borda Count Method       Pairwise Comparisons Method  Our final voting method is the pairwise comparison's method. In this method, each pair of candidates is compared, using all preferences to determine which of the two is more preferred. The more preferred candidate is awarded 1 point. If there is a tie, each candidate is awarded 1\/2 point. After all pairwise comparisons are made, the candidate with the most points, and hence the most pairwise wins, is declared the winner, ( ). Variations of the pairwise comparison method are used in many professional organizations, including election of the Board of Trustees for the Wikimedia Foundation that runs Wikipedia. Here is an example of using the pairwise comparison method to determine the winner of an election.    Pairwise Comparisons     Voting Methods: Wrapping Up!  We have seen four different methods for determining the winner of an election. Through our examples and problems, we have also seen that these different methods can lead to different winners! In particular, in the Math Club President election considered throughout the exercises, it turns out that each of the four voting methods leads to each of the four candidates being declared the winner!      "
 },
 {
-  "id": "unit-01-2-2",
+  "id": "unit01-preference-2-1",
   "level": "2",
-  "url": "unit-01.html#unit-01-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Apportionment "
-},
-{
-  "id": "subsec-preference-2-1",
-  "level": "2",
-  "url": "unit-01.html#subsec-preference-2-1",
+  "url": "unit-01.html#unit01-preference-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Preference ballots "
 },
 {
-  "id": "subsec-preference-2-2",
+  "id": "unit01-preference-2-2",
   "level": "2",
-  "url": "unit-01.html#subsec-preference-2-2",
+  "url": "unit-01.html#unit01-preference-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1247,36 +1274,63 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "unit-01.html#ex-vacation-club",
   "type": "Example",
-  "number": "100",
+  "number": "104",
   "title": "",
   "body": "  A vacation club is trying to decide which destination to visit this year: Hawaii (H), Orlando (O), or Anaheim (A). Their preference ballots are shown below:     Bob  Ann  Marv  Alice  Eve  Omar  Lupe  Dave  Tish  Jim    1st choice  A  A  O  H  A  O  H  O  H  A    2nd choice  O  H  H  A  H  H  A  H  A  H    3rd choice  H  O  A  O  O  A  O  A  O  O    Notice that several members had the same preferences. For example, Ann, Eve, and Jim all listed Anaheim as their top preference, Hawaii as their second preference, and Orlando as their third preference. This is indicated by the 3 in the second column of the preference table below.    Votes  1  3  3  3    1st choice  A  A  O  H    2nd choice  O  H  H  A    3rd choice  H  O  A  O    By totaling the vote count across the top row, we recover the total of votes cast. We will discuss four methods for determining the winner: plurality, plurality with elimination, Borda count, and pairwise comparison.   "
 },
 {
-  "id": "subsec-preference-4",
+  "id": "unit01-preference-4",
   "level": "2",
-  "url": "unit-01.html#subsec-preference-4",
+  "url": "unit-01.html#unit01-preference-4",
   "type": "Activity",
   "number": "1",
   "title": "",
   "body": "  Understanding Preference Ballots and Preference Tables 01     Understanding Preference Ballots and Preference Tables 02    "
 },
 {
-  "id": "subsec-plurality-5",
+  "id": "unit01-plurality-5",
   "level": "2",
-  "url": "unit-01.html#subsec-plurality-5",
+  "url": "unit-01.html#unit01-plurality-5",
   "type": "Activity",
   "number": "2",
   "title": "",
   "body": "  Plurality Method    "
 },
 {
-  "id": "unit01-6",
+  "id": "unit01-Elimination-6",
   "level": "2",
-  "url": "unit-01.html#unit01-6",
+  "url": "unit-01.html#unit01-Elimination-6",
+  "type": "Checkpoint",
+  "number": "105",
+  "title": "Plurality with Elimination Method.",
+  "body": " Plurality with Elimination Method   Watch the following video to understand how the plurality with elimination method determines a winner based on majority votes.   Using the data from the video, calculate the majority threshold for an election with 47 total votes.    As explained in the video, a majority is more than half. Half of 47 is 23.5, so the majority threshold is 24 votes.   "
+},
+{
+  "id": "unit01-Elimination-7",
+  "level": "2",
+  "url": "unit-01.html#unit01-Elimination-7",
   "type": "Activity",
   "number": "3",
   "title": "",
-  "body": "  Plurality with Elimination Method     Borda Count Method     Pairwise Comparisons     Voting Methods: Wrapping Up!  We have seen four different methods for determining the winner of an election. Through our examples and problems, we have also seen that these different methods can lead to different winners! In particular, in the Math Club President election considered throughout the exercises, it turns out that each of the four voting methods leads to each of the four candidates being declared the winner!    "
+  "body": "  Plurality with Elimination Method    "
+},
+{
+  "id": "unit01-Borda-7",
+  "level": "2",
+  "url": "unit-01.html#unit01-Borda-7",
+  "type": "Activity",
+  "number": "4",
+  "title": "",
+  "body": "  Borda Count Method    "
+},
+{
+  "id": "unit01-Comparisons-3",
+  "level": "2",
+  "url": "unit-01.html#unit01-Comparisons-3",
+  "type": "Activity",
+  "number": "5",
+  "title": "",
+  "body": "  Pairwise Comparisons     Voting Methods: Wrapping Up!  We have seen four different methods for determining the winner of an election. Through our examples and problems, we have also seen that these different methods can lead to different winners! In particular, in the Math Club President election considered throughout the exercises, it turns out that each of the four voting methods leads to each of the four candidates being declared the winner!    "
 },
 {
   "id": "notes-week-02",
